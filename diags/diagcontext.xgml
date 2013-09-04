@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="xgml">
+	<attribute key="Creator" type="String">yFiles</attribute>
+	<attribute key="Version" type="String">2.11</attribute>
+	<section name="graph">
+		<attribute key="hierarchic" type="int">1</attribute>
+		<attribute key="label" type="String"></attribute>
+		<attribute key="directed" type="int">1</attribute>
+		<section name="node">
+			<attribute key="id" type="int">0</attribute>
+			<attribute key="label" type="String">Sistema</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">696.0</attribute>
+				<attribute key="y" type="double">270.0</attribute>
+				<attribute key="w" type="double">102.0</attribute>
+				<attribute key="h" type="double">46.0</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Sistema</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="model"/>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">1</attribute>
+			<attribute key="label" type="String">Cliente</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">524.0</attribute>
+				<attribute key="y" type="double">120.0</attribute>
+				<attribute key="w" type="double">66.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Cliente</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="model"/>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">2</attribute>
+			<attribute key="label" type="String">Vendedor</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">524.0</attribute>
+				<attribute key="y" type="double">183.0</attribute>
+				<attribute key="w" type="double">66.0</attribute>
+				<attribute key="h" type="double">36.0</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Vendedor</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="model"/>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">3</attribute>
+			<attribute key="label" type="String">Marketing</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">524.0</attribute>
+				<attribute key="y" type="double">360.0</attribute>
+				<attribute key="w" type="double">76.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Marketing</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="model"/>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">4</attribute>
+			<attribute key="label" type="String">Medios de Comunicaci&#xf3;n</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">524.0</attribute>
+				<attribute key="y" type="double">420.0</attribute>
+				<attribute key="w" type="double">174.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Medios de Comunicaci&#xf3;n</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="model"/>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">5</attribute>
+			<attribute key="label" type="String">Facturaci&#xf3;n</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">903.0</attribute>
+				<attribute key="y" type="double">183.0</attribute>
+				<attribute key="w" type="double">96.0</attribute>
+				<attribute key="h" type="double">36.0</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Facturaci&#xf3;n</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="model"/>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">6</attribute>
+			<attribute key="label" type="String">Encargado de Stock</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">903.0</attribute>
+				<attribute key="y" type="double">390.0</attribute>
+				<attribute key="w" type="double">131.0</attribute>
+				<attribute key="h" type="double">36.0</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Encargado de Stock</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="model"/>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">3</attribute>
+			<attribute key="target" type="int">0</attribute>
+			<section name="graphics">
+				<attribute key="type" type="String">arc</attribute>
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<attribute key="arcType" type="String">fixedRatio</attribute>
+				<attribute key="arcHeight" type="double">48.53091812133789</attribute>
+				<attribute key="arcRatio" type="double">1.0</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">524.0</attribute>
+						<attribute key="y" type="double">360.0</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">587.5</attribute>
+						<attribute key="y" type="double">272.0</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">696.0</attribute>
+						<attribute key="y" type="double">270.0</attribute>
+					</section>
+				</section>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">3</attribute>
+			<attribute key="target" type="int">0</attribute>
+			<section name="graphics">
+				<attribute key="type" type="String">arc</attribute>
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<attribute key="arcType" type="String">fixedRatio</attribute>
+				<attribute key="arcHeight" type="double">48.53091812133789</attribute>
+				<attribute key="arcRatio" type="double">1.0</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">524.0</attribute>
+						<attribute key="y" type="double">360.0</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">587.5</attribute>
+						<attribute key="y" type="double">272.0</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">696.0</attribute>
+						<attribute key="y" type="double">270.0</attribute>
+					</section>
+				</section>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">3</attribute>
+			<attribute key="target" type="int">0</attribute>
+			<attribute key="label" type="String">2,3</attribute>
+			<section name="graphics">
+				<attribute key="type" type="String">arc</attribute>
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<attribute key="arcType" type="String">fixedRatio</attribute>
+				<attribute key="arcHeight" type="double">48.53091812133789</attribute>
+				<attribute key="arcRatio" type="double">1.0</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">524.0</attribute>
+						<attribute key="y" type="double">360.0</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">587.5</attribute>
+						<attribute key="y" type="double">272.0</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">696.0</attribute>
+						<attribute key="y" type="double">270.0</attribute>
+					</section>
+				</section>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">2,3</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">23.083984375</attribute>
+				<attribute key="contentHeight" type="double">17.96875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">2</attribute>
+			<attribute key="target" type="int">1</attribute>
+			<attribute key="label" type="String">6</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">6</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">11.634765625</attribute>
+				<attribute key="contentHeight" type="double">17.96875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">3</attribute>
+			<attribute key="target" type="int">4</attribute>
+			<attribute key="label" type="String">1</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">1</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">11.634765625</attribute>
+				<attribute key="contentHeight" type="double">17.96875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">5</attribute>
+			<attribute key="target" type="int">0</attribute>
+			<attribute key="label" type="String">8</attribute>
+			<section name="graphics">
+				<attribute key="type" type="String">arc</attribute>
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<attribute key="arcType" type="String">fixedRatio</attribute>
+				<attribute key="arcHeight" type="double">56.134883880615234</attribute>
+				<attribute key="arcRatio" type="double">1.0</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">903.0</attribute>
+						<attribute key="y" type="double">183.0</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">821.25</attribute>
+						<attribute key="y" type="double">278.25</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">696.0</attribute>
+						<attribute key="y" type="double">270.0</attribute>
+					</section>
+				</section>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">8</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">11.634765625</attribute>
+				<attribute key="contentHeight" type="double">17.96875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">0</attribute>
+			<attribute key="target" type="int">5</attribute>
+			<attribute key="label" type="String">9</attribute>
+			<section name="graphics">
+				<attribute key="type" type="String">arc</attribute>
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<attribute key="arcType" type="String">fixedRatio</attribute>
+				<attribute key="arcHeight" type="double">56.134883880615234</attribute>
+				<attribute key="arcRatio" type="double">1.0</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">696.0</attribute>
+						<attribute key="y" type="double">270.0</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">777.75</attribute>
+						<attribute key="y" type="double">174.75</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">903.0</attribute>
+						<attribute key="y" type="double">183.0</attribute>
+					</section>
+				</section>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">9</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">11.634765625</attribute>
+				<attribute key="contentHeight" type="double">17.96875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">0</attribute>
+			<attribute key="target" type="int">6</attribute>
+			<attribute key="label" type="String">10</attribute>
+			<section name="graphics">
+				<attribute key="type" type="String">arc</attribute>
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<attribute key="arcType" type="String">fixedRatio</attribute>
+				<attribute key="arcHeight" type="double">59.81690979003906</attribute>
+				<attribute key="arcRatio" type="double">1.0</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">696.0</attribute>
+						<attribute key="y" type="double">270.0</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">829.5</attribute>
+						<attribute key="y" type="double">278.25</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">903.0</attribute>
+						<attribute key="y" type="double">390.0</attribute>
+					</section>
+				</section>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">10</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">19.26953125</attribute>
+				<attribute key="contentHeight" type="double">17.96875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">2</attribute>
+			<attribute key="target" type="int">0</attribute>
+			<section name="graphics">
+				<attribute key="type" type="String">arc</attribute>
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<attribute key="arcType" type="String">fixedRatio</attribute>
+				<attribute key="arcHeight" type="double">48.187782287597656</attribute>
+				<attribute key="arcRatio" type="double">1.0</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">524.0</attribute>
+						<attribute key="y" type="double">183.0</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">631.75</attribute>
+						<attribute key="y" type="double">183.5</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">696.0</attribute>
+						<attribute key="y" type="double">270.0</attribute>
+					</section>
+				</section>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">2</attribute>
+			<attribute key="target" type="int">0</attribute>
+			<attribute key="label" type="String">4,5,7</attribute>
+			<section name="graphics">
+				<attribute key="type" type="String">arc</attribute>
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<attribute key="arcType" type="String">fixedRatio</attribute>
+				<attribute key="arcHeight" type="double">48.187782287597656</attribute>
+				<attribute key="arcRatio" type="double">1.0</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">524.0</attribute>
+						<attribute key="y" type="double">183.0</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">631.75</attribute>
+						<attribute key="y" type="double">183.5</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">696.0</attribute>
+						<attribute key="y" type="double">270.0</attribute>
+					</section>
+				</section>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">4,5,7</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">34.533203125</attribute>
+				<attribute key="contentHeight" type="double">17.96875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">0</attribute>
+			<attribute key="target" type="int">3</attribute>
+			<attribute key="label" type="String">11</attribute>
+			<section name="graphics">
+				<attribute key="type" type="String">arc</attribute>
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<attribute key="arcType" type="String">fixedRatio</attribute>
+				<attribute key="arcHeight" type="double">48.53091812133789</attribute>
+				<attribute key="arcRatio" type="double">1.0</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">696.0</attribute>
+						<attribute key="y" type="double">270.0</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">632.5</attribute>
+						<attribute key="y" type="double">358.0</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">524.0</attribute>
+						<attribute key="y" type="double">360.0</attribute>
+					</section>
+				</section>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">11</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">19.26953125</attribute>
+				<attribute key="contentHeight" type="double">17.96875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">6</attribute>
+			<attribute key="target" type="int">0</attribute>
+			<attribute key="label" type="String">12</attribute>
+			<section name="graphics">
+				<attribute key="type" type="String">arc</attribute>
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<attribute key="arcType" type="String">fixedRatio</attribute>
+				<attribute key="arcHeight" type="double">59.81690979003906</attribute>
+				<attribute key="arcRatio" type="double">1.0</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">903.0</attribute>
+						<attribute key="y" type="double">390.0</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">769.5</attribute>
+						<attribute key="y" type="double">381.75</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">696.0</attribute>
+						<attribute key="y" type="double">270.0</attribute>
+					</section>
+				</section>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">12</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">19.26953125</attribute>
+				<attribute key="contentHeight" type="double">17.96875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
+			</section>
+		</section>
+	</section>
+</section>
