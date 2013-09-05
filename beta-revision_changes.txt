@@ -1,0 +1,12 @@
+Preguntas:
+1) discriminación lograr/mantener/evitar sin "sintaxis"?
+2) Los 3 monitoreos son alternativas o son "concurrentes"? Si es un y-refinamiento es concurrente, creo.
+3) Crear promociones en base al mercado no tiene creación automática? (son sólo manual e híbrido). Creo que estas decisiones son para poner en el informe. Así como me lo pregunto yo, se lo puede preguntar Guido (y si no se lo pregunta, igual con algo hay que llenar el informe jajaja).
+4) Misma pregunta para "Crear promociones en base a stock viejo"
+
+Cambios:
+1) Cambié "Promociones atractivas al cliente" por  "Buenas promociones", ya que "Promo stock viejo" debería ir, pero no veo como eso es atractivo para el cliente
+2) Algunos typos
+3) "Conocer necesidad actuales" por "Conocer necesidades actuales"
+4) Algunas minúsculas por mayúsculas para ser consistentes
+5) Tamaños de algunas figuras para que entre todo el texto
