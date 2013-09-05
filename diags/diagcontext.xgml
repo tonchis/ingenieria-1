@@ -22,7 +22,7 @@
 				<attribute key="text" type="String">Sistema</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="model"/>
+				<attribute key="anchor" type="String">c</attribute>
 			</section>
 		</section>
 		<section name="node">
@@ -41,7 +41,7 @@
 				<attribute key="text" type="String">Cliente</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="model"/>
+				<attribute key="anchor" type="String">c</attribute>
 			</section>
 		</section>
 		<section name="node">
@@ -60,7 +60,7 @@
 				<attribute key="text" type="String">Vendedor</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="model"/>
+				<attribute key="anchor" type="String">c</attribute>
 			</section>
 		</section>
 		<section name="node">
@@ -79,7 +79,7 @@
 				<attribute key="text" type="String">Marketing</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="model"/>
+				<attribute key="anchor" type="String">c</attribute>
 			</section>
 		</section>
 		<section name="node">
@@ -98,7 +98,7 @@
 				<attribute key="text" type="String">Medios de Comunicaci&#xf3;n</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="model"/>
+				<attribute key="anchor" type="String">c</attribute>
 			</section>
 		</section>
 		<section name="node">
@@ -117,7 +117,7 @@
 				<attribute key="text" type="String">Facturaci&#xf3;n</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="model"/>
+				<attribute key="anchor" type="String">c</attribute>
 			</section>
 		</section>
 		<section name="node">
@@ -136,7 +136,7 @@
 				<attribute key="text" type="String">Encargado de Stock</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="model"/>
+				<attribute key="anchor" type="String">c</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -224,8 +224,8 @@
 				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
 				<attribute key="contentWidth" type="double">23.083984375</attribute>
 				<attribute key="contentHeight" type="double">17.96875</attribute>
-				<attribute key="model"/>
-				<attribute key="position"/>
+				<attribute key="model" type="String">six_pos</attribute>
+				<attribute key="position" type="String">tail</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -243,8 +243,8 @@
 				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
 				<attribute key="contentWidth" type="double">11.634765625</attribute>
 				<attribute key="contentHeight" type="double">17.96875</attribute>
-				<attribute key="model"/>
-				<attribute key="position"/>
+				<attribute key="model" type="String">six_pos</attribute>
+				<attribute key="position" type="String">tail</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -262,8 +262,8 @@
 				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
 				<attribute key="contentWidth" type="double">11.634765625</attribute>
 				<attribute key="contentHeight" type="double">17.96875</attribute>
-				<attribute key="model"/>
-				<attribute key="position"/>
+				<attribute key="model" type="String">six_pos</attribute>
+				<attribute key="position" type="String">tail</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -299,8 +299,8 @@
 				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
 				<attribute key="contentWidth" type="double">11.634765625</attribute>
 				<attribute key="contentHeight" type="double">17.96875</attribute>
-				<attribute key="model"/>
-				<attribute key="position"/>
+				<attribute key="model" type="String">six_pos</attribute>
+				<attribute key="position" type="String">head</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -336,8 +336,8 @@
 				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
 				<attribute key="contentWidth" type="double">11.634765625</attribute>
 				<attribute key="contentHeight" type="double">17.96875</attribute>
-				<attribute key="model"/>
-				<attribute key="position"/>
+				<attribute key="model" type="String">six_pos</attribute>
+				<attribute key="position" type="String">tail</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -373,8 +373,8 @@
 				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
 				<attribute key="contentWidth" type="double">19.26953125</attribute>
 				<attribute key="contentHeight" type="double">17.96875</attribute>
-				<attribute key="model"/>
-				<attribute key="position"/>
+				<attribute key="model" type="String">six_pos</attribute>
+				<attribute key="position" type="String">head</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -436,8 +436,8 @@
 				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
 				<attribute key="contentWidth" type="double">34.533203125</attribute>
 				<attribute key="contentHeight" type="double">17.96875</attribute>
-				<attribute key="model"/>
-				<attribute key="position"/>
+				<attribute key="model" type="String">six_pos</attribute>
+				<attribute key="position" type="String">head</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -473,8 +473,8 @@
 				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
 				<attribute key="contentWidth" type="double">19.26953125</attribute>
 				<attribute key="contentHeight" type="double">17.96875</attribute>
-				<attribute key="model"/>
-				<attribute key="position"/>
+				<attribute key="model" type="String">six_pos</attribute>
+				<attribute key="position" type="String">head</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -510,8 +510,8 @@
 				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
 				<attribute key="contentWidth" type="double">19.26953125</attribute>
 				<attribute key="contentHeight" type="double">17.96875</attribute>
-				<attribute key="model"/>
-				<attribute key="position"/>
+				<attribute key="model" type="String">six_pos</attribute>
+				<attribute key="position" type="String">tail</attribute>
 			</section>
 		</section>
 	</section>
