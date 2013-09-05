@@ -1,6 +1,6 @@
-.tex~
-.aux
-.toc
-.pdf
-.out
-.log
+*.tex~
+*.aux
+*.toc
+*.pdf
+*.out
+*.log
