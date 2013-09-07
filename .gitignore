@@ -1,7 +1,7 @@
-*.tex~
-*.aux
-*.toc
-*.pdf
-*.out
-*.log
-*.synctex.gz
+tp1/informe/*.tex~
+tp1/informe/*.aux
+tp1/informe/*.toc
+tp1/informe/*.pdf
+tp1/informe/*.out
+tp1/informe/*.log
+tp1/informe/*.synctex.gz
