@@ -21,7 +21,7 @@
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="120.015625" x="31.009834558823513" y="3.5493601329290527">Lograr [administrar 
-del stock]<y:LabelModel>
+el stock]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -74,7 +74,7 @@ reserva de equipos]<y:LabelModel>
           <y:Geometry height="39.364345265858105" width="218.37636645807333" x="788.1223660257965" y="617.7516504619691"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="174.6484375" x="21.863964479036667" y="3.549360132928996">Lograr [dado que hay equpos
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="178.1171875" x="20.129589479036667" y="3.549360132928996">Lograr [dado que hay equipos
 nuevos, cargarlos al sistema]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -653,7 +653,6 @@ notificar al encargado de stock]<y:LabelModel>
       </data>
     </edge>
     <edge id="e20" source="n21" target="n9">
-      <data key="d9"/>
       <data key="d10">
         <y:BezierEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -663,7 +662,6 @@ notificar al encargado de stock]<y:LabelModel>
       </data>
     </edge>
     <edge id="e21" source="n22" target="n9">
-      <data key="d9"/>
       <data key="d10">
         <y:BezierEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -673,7 +671,6 @@ notificar al encargado de stock]<y:LabelModel>
       </data>
     </edge>
     <edge id="e22" source="n24" target="n21">
-      <data key="d9"/>
       <data key="d10">
         <y:BezierEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -685,7 +682,6 @@ notificar al encargado de stock]<y:LabelModel>
       </data>
     </edge>
     <edge id="e23" source="n23" target="n22">
-      <data key="d9"/>
       <data key="d10">
         <y:BezierEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
