@@ -1,0 +1,23 @@
+Eventos
+
+1. Encargado de stock ingresa nuevos equipos al sistema.
+2. Vendedor registra reserva de equipos en el sistema.
+3. Vendedor cancela la reserva de equipos en el sistema.
+4. El sistema notifica la confirmación de reserva de equipos al encargado de stock.
+5. Monitorear los medios tradicionales de comunicación.
+6. Marketing selecciona usuarios y sitos a monitorear.
+7. Monitorear competencia por internet.
+8. Enviar informe de estado del mercado.
+9. Notificar que se creó promoción automáticamente. (vale para mercacdo y stock acumulado)
+10. Validar promoción creada automátiacmente. (vale para mercacdo y stock acumulado)
+11. Notificar stock acumulado.
+12. Alta o baja nueva promoción.
+13. Consultar datos del cliente.
+14. Consultar promociónes para el cliente.
+15. Comunicar necesidades.
+16. Convencer de adquirir promoción.
+17. Seleccionar la promoción adquirida por el cliente.
+18. Confirmar o rechazar promoción por disponibilidad de stock.
+19. Sistema alerta al encargado de stock cuando esta pronto a acabarse.
+20. Facturación confirma o rechaza venta en sistema.
+21. Facturación carga la venta de los equipos y las líneas.
