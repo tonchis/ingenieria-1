@@ -1,23 +1,44 @@
 Eventos
 
-1. Encargado de stock ingresa nuevos equipos al sistema.
-2. Vendedor registra reserva de equipos en el sistema.
-3. Vendedor cancela la reserva de equipos en el sistema.
-4. El sistema notifica la confirmación de reserva de equipos al encargado de stock.
-5. Monitorear los medios tradicionales de comunicación.
-6. Marketing selecciona usuarios y sitos a monitorear.
-7. Monitorear competencia por internet.
-8. Enviar informe de estado del mercado.
-9. Notificar que se creó promoción automáticamente. (vale para mercacdo y stock acumulado)
-10. Validar promoción creada automátiacmente. (vale para mercacdo y stock acumulado)
-11. Notificar stock acumulado.
-12. Alta o baja nueva promoción.
-13. Consultar datos del cliente.
-14. Consultar promociónes para el cliente.
-15. Comunicar necesidades.
-16. Convencer de adquirir promoción.
-17. Seleccionar la promoción adquirida por el cliente.
-18. Confirmar o rechazar promoción por disponibilidad de stock.
-19. Sistema alerta al encargado de stock cuando esta pronto a acabarse.
-20. Facturación confirma o rechaza venta en sistema.
-21. Facturación carga la venta de los equipos y las líneas.
+Diagrama 1
+
+1. Ingresar nuevos equipos.
+2. Registrar o cancelar reserva de equipos.
+3. Notificar la confirmación de reserva de equipos.
+4. Monitorear los medios tradicionales de comunicación.
+5. Seleccionar usuarios y sitos a monitorear.
+6. Monitorear competencia por internet.
+7. Enviar informe de estado del mercado.
+8. Notificar que se creó promoción automáticamente. (vale para mercacdo y stock acumulado)
+9. Validar promoción creada automátiacmente. (vale para mercacdo y stock acumulado)
+10. Notificar stock acumulado.
+11. Dar Alta o baja nueva promoción.
+12. Consultar en el momento datos del cliente.
+13. Consultar en el momento promociónes para el cliente.
+14. Comunicar necesidades.
+15. Convencer de adquirir promoción.
+16. Seleccionar la promoción adquirida por el cliente.
+17. Confirmar o rechazar promoción por disponibilidad de stock.
+18. Alertar cuando stock está pronto a acabarse.
+19. Confirmar o rechazar venta.
+20. Cargar la venta de los equipos y las líneas.
+21. Notificar venta nueva para ser verificada.
+
+Diagrama 2
+
+1. Ingresar nuevos equipos.
+2. Registrar o cancelar reserva de equipos.
+3. Notificar la confirmación de reserva de equipos.
+4. Monitorear los medios de comunicación.
+5. Notificar stock acumulado.
+6. Dar Alta o baja nueva promoción.
+7. Actualizar datos de clientes.
+8. Actualizar promociónes para clientes.
+9. Comunicar necesidades.
+10. Convencer de adquirir promoción.
+11. Seleccionar la promoción adquirida por el cliente.
+12. Confirmar o rechazar promoción por disponibilidad de stock.
+13. Alertar cuando stock está pronto a acabarse.
+14. Confirmar o rechazar venta.
+15. Cargar la venta de los equipos y las líneas.
+16. Notificar venta nueva para ser verificada.
