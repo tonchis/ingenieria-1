@@ -1,0 +1,44 @@
+Nuestro sistema tiene como objetivo lograr realizar ventas personalizadas y confiables. Para lograr esto tenemos 6 objetivos a cumplir. A saber:
+\begin{enumerate}
+	\item Conocer los datos del cliente.
+	\item Conocer las promociones disponibles para el mismo.
+	\item Adaptar las promociones a necesidades particulares.
+	\item Convencer al cliente de comprar una promoción.
+	\item Reservar la misma.
+	\item Confirmar la compra.
+\end{enumerate}
+\indent Para conocer los datos del cliente se debe averiguar, por un lado, la cantidad de líneas y la facturación mensual que posee en nuestra empresa, y por otro, las necesidades del mismo.\\
+\indent El primer par de objetivos se puede obtener de dos formas: manteniendo los datos de los clientes a visitar en el dispositivo móvil del vendedor, actualizando diáriamente el dispositivo, o dándole la posibilidad de consultar los datos del cliente en el momento de forma inalámbrica.\\
+\\
+\indent Asumiendo que ya conocemos los datos del cliente, queremos conocer que promociones tiene nuestra empresa para él. De manera similar a la anterior, tenemos la opción offline y la online. La offline consiste en mantener las promociones para los clientes a visitar en el dispositivo móvil del vendedor, actualizándo diariamente los datos de las promociones en el mismo. La opción online se basa en tener disponible las promociones para el cliente de manera inalámbrica. Un objetivo blando que nos planteamos es el de contar con las últimas promociones realizadas por marketing. La opción offline contribuye un poco a lograr esto, mientras que la online contribuye bastante, por poder tener disponibles las últimas generadas en el mismo día.\\
+\\
+
+% OJO! Acá hay 2 ramas que no tienen refinamiento. Es a propósito o nos falta?
+
+\indent Nuestro sistema de ventas debe poder, luego que se adaptaron las promociones disponibles para el cliente a sus necesidades particulares y que se lo convenció de comprar una de las mismas, reservar una promoción.\\
+\indent Para cumplir este objetivo se deben dar tres cosas: 
+\begin{enumerate}
+	\item Se debe poder ingresar la promoción elegida, para lo cual necesitamos seleccionarla de una lista y enviarla al servidor.
+	\item Se debe poder, dado que sucedió lo anteriormente dicho, comprobar la disponibilidad del stock para reservarla, manteniendo una conexión con el servidor (detalles sobre este objetivo más adelante).
+	\item Se debe poder mantener actualizado el stock, dado que hubo disponibilidad para la reserva. Para esto debemos descontar el stock reservado y notificar al encargado si el stock está pronto a terminarse.
+\end{enumerate}
+
+\indent Por último, asumiendo que se cumplió lo anteriormente descripto, debemos lograr confirmar la compra. Esto se consigue logrando ingresar los datos del cliente necesarios para comprar, y enviándolos al servidor manteniendo la comunicación con el mismo.\\
+\indent Hay dos formas de ingresar los datos del cliente necesarios para comprar: Se puede obtener los datos leyendo el código QR provisto por la AFIP de Cambodia, o se puede completar el formulario de facturación. El primero ayuda a cumplir nuestro objetivo blando de reducir el error humano al ingresar datos, el segundo no lo hace.\\
+
+\indent El objetivo común que describimos como "mantener comunicación con el servidor" influye en cuatro objetivos blandos:
+\begin{enumerate}
+	\item Tener mayor performance.
+	\item Tener disponible el servicio el mayor tiempo posible.
+	\item Tener una comunicación segura.
+	\item Reducir el costo de desarrollo y mantenimiento.
+\end{enumerate}
+
+Dicho objetivo común se puede lograr de dos maneras: mediante internet móvil o mediante envío y recepción de SMS. La forma en la que lo hace, es la siguiente:
+\begin{itemize}
+	\item Internet móvil: ayuda en gran parte al cumplimiento de los objetivos blandos 1 y 3, gracias a su velocidad y capacidad de encriptación. Ayuda también un poco al objetivo 4, y no consigue cumplir muy bien el 2, por lo planteado en el enunciado (el servicio es propenso a caerse).
+
+	\item Envío y recepción de SMS: es una opción mala para el objetivo blando número 3, ya que no existe encriptación, y también para el objetivo 4. Es un poco peor que la alternativa de Internet móvil para el objetivo 1, y ayuda a cumplir el objetivo 2, ya que generalmente es un servicio que está disponible siempre.
+\end{itemize}
+
+\indent Para lograr comunicarse a través de internet, asumimos que el dispositivo móvil del vendedor tiene conexión a internet, y el mismo debe lograr enviar un pedido y recibir una respuesta. Para poder comunicarse a través de SMS, asumimos que el dispositivo cuenta con un chip GSM para conectarse a la red, y que nuevamente puede por este medio enviar un pedido y recibir una respuesta.
