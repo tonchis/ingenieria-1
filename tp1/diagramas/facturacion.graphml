@@ -17,8 +17,8 @@
     <node id="n0">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="12.0" width="12.0" x="869.1444006851762" y="515.0127998574619"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="12.0" width="12.0" x="869.1444006851762" y="554.0752998574619"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="4.0" y="4.0">
             <y:LabelModel>
@@ -35,10 +35,10 @@
     <node id="n1">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="36.0" width="239.54705291834853" x="755.3708742260019" y="449.012799857462"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="50.0" width="250.0" x="750.1444006851762" y="481.075299857462"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="185.904296875" x="26.821378021674263" y="1.8671875">Lograr [registrada una venta, 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="185.904296875" x="32.0478515625" y="8.8671875">Lograr [registrada una venta, 
 confirmar o rechazar la misma]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -53,10 +53,10 @@ confirmar o rechazar la misma]<y:LabelModel>
     <node id="n2">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="36.0" width="206.0450365957447" x="279.9304159996549" y="616.9122802350626"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="50.0" width="250.0" x="234.2594371825769" y="648.9747802350626"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="160.919921875" x="22.562557360372352" y="1.8671875">Lograr [notificar el registro
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="160.919921875" x="44.5400390625" y="8.8671875">Lograr [notificar el registro
 de una venta]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -71,10 +71,10 @@ de una venta]<y:LabelModel>
     <node id="n3">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="36.0" width="378.94057910638344" x="485.9754525953996" y="612.9122802350628"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="50.0" width="350.0" x="514.2594371825769" y="644.9747802350628"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="295.462890625" x="41.73884424069172" y="1.8671875">Lograr [dado que hubo  una notificación de venta,
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="295.462890625" x="27.2685546875" y="8.8671875">Lograr [dado que hubo  una notificación de venta,
  verificar el estado del cliente]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -89,8 +89,8 @@ de una venta]<y:LabelModel>
     <node id="n4">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="63.75" x="351.07793429752724" y="690.8926252935146"/>
-          <y:Fill color="#99CCFF" transparent="false"/>
+          <y:Geometry height="30.0" width="63.75" x="327.3844371825769" y="723.9649527642887"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="48.70703125" x="7.521484375" y="5.93359375">sistema<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -106,8 +106,8 @@ de una venta]<y:LabelModel>
     <node id="n5">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="92.24999999999983" x="629.3207421485914" y="686.8926252935148"/>
-          <y:Fill color="#99CCFF" transparent="false"/>
+          <y:Geometry height="30.0" width="92.24999999999983" x="643.134437182577" y="723.9649527642887"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="44.124999999999886" y="13.0">
             <y:LabelModel>
@@ -131,10 +131,10 @@ de una venta]<y:LabelModel>
     <node id="n6">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="36.0" width="153.3684953191489" x="1232.1579491485923" y="612.9122802350628"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="50.0" width="250.0" x="1160.1486996932163" y="644.9747802350628"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="125.189453125" x="14.08952109707434" y="1.8671875">Lograr [notificar al
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="125.189453125" x="62.4052734375" y="8.8671875">Lograr [notificar al
 encargado del stock]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -149,8 +149,8 @@ encargado del stock]<y:LabelModel>
     <node id="n7">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="80.99999999999983" x="1268.3421968081666" y="685.8117606126636"/>
-          <y:Fill color="#99CCFF" transparent="false"/>
+          <y:Geometry height="30.0" width="80.99999999999983" x="1244.6486996932163" y="723.9649527642887"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="38.5" y="13.0">
             <y:LabelModel>
@@ -175,7 +175,7 @@ encargado del stock]<y:LabelModel>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="12.0" width="12.0" x="1054.1444006851762" y="406.144719443431"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="4.0" y="4.0">
             <y:LabelModel>
@@ -192,10 +192,10 @@ encargado del stock]<y:LabelModel>
     <node id="n9">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="36.0" width="185.0" x="967.6444006851762" y="340.144719443431"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="50.0" width="250.0" x="935.1444006851762" y="338.8287596504465"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="129.970703125" x="27.5146484375" y="1.8671875">Lograr [tener una
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="129.970703125" x="60.0146484375" y="8.8671875">Lograr [tener una
 facturación confiable]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -210,8 +210,8 @@ facturación confiable]<y:LabelModel>
     <node id="n10">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="49.20731707317054" x="448.78110800225" y="357.512799857462"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="30.0" width="49.20731707317054" x="448.78110800225" y="348.8287596504465"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="15.390625" x="16.90834603658527" y="5.93359375">...<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -227,8 +227,8 @@ facturación confiable]<y:LabelModel>
     <node id="n11">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="49.20731707317054" x="549.811595807128" y="357.512799857462"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="30.0" width="49.20731707317054" x="549.811595807128" y="348.8287596504465"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="15.390625" x="16.90834603658527" y="5.93359375">...<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -244,8 +244,8 @@ facturación confiable]<y:LabelModel>
     <node id="n12">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="49.20731707317054" x="650.842083612006" y="357.512799857462"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="30.0" width="49.20731707317054" x="650.842083612006" y="348.8287596504465"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="15.390625" x="16.90834603658527" y="5.93359375">...<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -262,7 +262,7 @@ facturación confiable]<y:LabelModel>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="14.0" width="13.0" x="868.6444006851762" y="253.27663902939986"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="4.5" y="5.0">
             <y:LabelModel>
@@ -279,10 +279,10 @@ facturación confiable]<y:LabelModel>
     <node id="n14">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="46.21297021276598" width="277.5470529183484" x="736.3708742260019" y="177.06366881663388"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="50.0" width="250.0" x="750.1444006851762" y="175.17015392301687"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="211.46875" x="33.03915145917426" y="6.973672606382991">Lograr [manejar stock,
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="211.46875" x="19.265625" y="8.8671875">Lograr [manejar stock,
  promociones, ventas y facturación]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -297,10 +297,10 @@ facturación confiable]<y:LabelModel>
     <node id="n15">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="36.0" width="297.94057910638344" x="894.916031701783" y="612.9122802350628"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="50.0" width="277.45587555319185" x="882.6928241400245" y="644.9747802350628"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="230.787109375" x="33.57673486569172" y="1.8671875">Lograr [dado que se verificó el cliente, 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="230.787109375" x="23.334383089095923" y="8.8671875">Lograr [dado que se verificó el cliente, 
 confirmar o rechazar la venta]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -315,8 +315,8 @@ confirmar o rechazar la venta]<y:LabelModel>
     <node id="n16">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="80.99999999999983" x="1048.6114242593007" y="678.9122802350628"/>
-          <y:Fill color="#99CCFF" transparent="false"/>
+          <y:Geometry height="30.0" width="80.99999999999983" x="1024.9179271443504" y="723.9649527642887"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="38.5" y="13.0">
             <y:LabelModel>
@@ -340,8 +340,8 @@ confirmar o rechazar la venta]<y:LabelModel>
     <node id="n17">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="92.24999999999983" x="926.3614242593009" y="681.4122802350629"/>
-          <y:Fill color="#99CCFF" transparent="false"/>
+          <y:Geometry height="30.0" width="92.24999999999983" x="921.4179271443505" y="723.9649527642887"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="44.124999999999886" y="13.0">
             <y:LabelModel>
@@ -365,10 +365,10 @@ confirmar o rechazar la venta]<y:LabelModel>
     <node id="n18">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="36.0" width="297.94057910638344" x="1150.3158982971845" y="449.012799857462"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="50.0" width="250.0" x="1174.2861878503763" y="481.075299857462"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="214.744140625" x="41.59821924069183" y="1.8671875">Lograr [dado que se confirmó una
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="214.744140625" x="17.6279296875" y="8.8671875">Lograr [dado que se confirmó una
  venta, facturar los equipos y líneas]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -383,10 +383,10 @@ confirmar o rechazar la venta]<y:LabelModel>
     <node id="n19">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="92.24999999999983" x="1183.7228485186017" y="515.012799857462"/>
-          <y:Fill color="#99CCFF" transparent="false"/>
+          <y:Geometry height="30.0" width="92.24999999999983" x="1195.964452033642" y="554.075299857462"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="44.124999999999886" y="13.0">
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="44.125" y="13.0">
             <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -394,7 +394,7 @@ confirmar o rechazar la venta]<y:LabelModel>
               <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="69.091796875" x="11.579101562499886" y="5.93359375">facturación<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="69.091796875" x="11.5791015625" y="5.93359375">facturación<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -408,8 +408,8 @@ confirmar o rechazar la venta]<y:LabelModel>
     <node id="n20">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="153.36849531914896" x="1314.6843936163332" y="515.012799857462"/>
-          <y:Fill color="#99CCFF" transparent="false"/>
+          <y:Geometry height="30.0" width="153.36849531914896" x="1300.7144520336417" y="554.075299857462"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="74.68424765957457" y="13.0">
             <y:LabelModel>
@@ -561,7 +561,6 @@ confirmar o rechazar la venta]<y:LabelModel>
       </data>
     </edge>
     <edge id="e13" source="n6" target="n0">
-      <data key="d9"/>
       <data key="d10">
         <y:BezierEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -571,7 +570,6 @@ confirmar o rechazar la venta]<y:LabelModel>
       </data>
     </edge>
     <edge id="e14" source="n15" target="n0">
-      <data key="d9"/>
       <data key="d10">
         <y:BezierEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -581,7 +579,6 @@ confirmar o rechazar la venta]<y:LabelModel>
       </data>
     </edge>
     <edge id="e15" source="n17" target="n15">
-      <data key="d9"/>
       <data key="d10">
         <y:BezierEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -591,7 +588,6 @@ confirmar o rechazar la venta]<y:LabelModel>
       </data>
     </edge>
     <edge id="e16" source="n16" target="n15">
-      <data key="d9"/>
       <data key="d10">
         <y:BezierEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -601,7 +597,6 @@ confirmar o rechazar la venta]<y:LabelModel>
       </data>
     </edge>
     <edge id="e17" source="n18" target="n8">
-      <data key="d9"/>
       <data key="d10">
         <y:BezierEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -611,7 +606,6 @@ confirmar o rechazar la venta]<y:LabelModel>
       </data>
     </edge>
     <edge id="e18" source="n19" target="n18">
-      <data key="d9"/>
       <data key="d10">
         <y:BezierEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -621,7 +615,6 @@ confirmar o rechazar la venta]<y:LabelModel>
       </data>
     </edge>
     <edge id="e19" source="n20" target="n18">
-      <data key="d9"/>
       <data key="d10">
         <y:BezierEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
