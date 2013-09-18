@@ -76,7 +76,7 @@ La figura ~\ref{fig:diagStock} presenta la rama de objetivos referente al manejo
 
 El subárbol de objetivos correspondiente a las promociones fue dividido en dos partes. Satisfacer este aspecto del sistema se basa en cuatro pilares: por un lado lograr promociones parametrizadas y promociones competitivas, objetivos que se exploran en la figura ~\ref{fig:diagProm1}. Por el otro, generar promociones de stock acumulado y mantener actualizado y coherente el catálogo de promociones, metas que se muestran en la figura ~\ref{fig:diagProm2}. En lo que respecta a promociones parametrizadas, este objetivo ataca la necesidad de tener una oferta atractiva para los distintos perfiles de clientes. Gracias a que el sistema lleva cuenta de sus clientes y su historia de consumo, marketing dispone de la información necesaria para crear categorías de clientes en base a la cantidad de líneas que poseen y el dinero que gastan en determinado período y en base a esto generar promociones de acuerdo a los parámetros de estos perfiles. De esta manera, los vendedores podrán optar por consultar promociones a medida del tipo de cliente que visitan de una manera eficiente y rápida.\\
 \indent Desde otro enfoque también es importante que las promociones tengan correlación con el estado del mercado y que resulten competitvas respecto de otras empresas de telefonía celular. Para esto deberá conocerse el mercado y luego diseñar ofertas acorde a las conclusiones obtenidas. Aquí se presentan por primera vez alternativas sobre cómo abordar un aspecto del sistema. El alcance del estudio de mercado podrá ser en base a internet o además también en base a los medios de comunicación tradicionales como diarios, revistas, radio, etc. Si bien esta última esfera de comunicación sólo podrá ser analizada manualmente por marketing, una de las alternativas que se ofrece es poder llevar adelante un monitoreo automático de internet (y no manual). A simple vista se puede reflexionar que incorporar al sistema una funcionalidad automática de escaneo del mercado en internet será más costoso y no necesariamente más eficiente que hacerlo de manera manual pero deberá tenerse en cuenta también que permitirá una reacción muy rápida frente a cambios en el mercado para contrarrestar a los competidores. En ese caso, marketing deberá primero definir cierto alcance de la búsqueda como ser sitios, redes sociales, usuarios y canales virtuales de difusión de la empresa. Luego, el sistema procederá a procesar toda esa información y a generar un reporte que será enviado a marketing para su desglose.\\
-\indent Una vez que marketing cuenta con el estado de mercado, el objetivo inmediato a satisfacer es la correcta creación de promociones en base a esta información. Nuevamente se ofrecen dos alternativas: la creación manual de las mismas, a cargo de marketing, o una creación automática por parte del sistema pero sujeta a revisión por un agente humano de marketing. Nuevamente la disyuntiva es similar, puesto que incorporar un módulo de creación automáticamente de promociones seguramente será más costoso, pero por otro lado si para el estudio de mercado se decidió realizarlo automáticamente, podría impactar en menor medida en el costo del segundo sistema automático dado que podría procesar de manera eficiente el reporte emitido en el primer paso. Además, con el uso cada vez mayor de las redes sociales e internet para la difusión de promociones y ofertas por parte de las companías, a largo plazo podría resultar muy ventajoso y liberador de recursos humanos contar con autogeneración de promociones competitivas. 
+\indent Una vez que marketing cuenta con el estado de mercado, el objetivo inmediato a satisfacer es la correcta creación de promociones en base a esta información. Nuevamente se ofrecen dos alternativas: la creación manual de las mismas, a cargo de marketing, o una creación automática por parte del sistema pero sujeta a revisión por un agente humano de marketing. Nuevamente la disyuntiva es similar, puesto que incorporar un módulo de creación automáticamente de promociones seguramente será más costoso, pero por otro lado si para el estudio de mercado se decidió realizarlo automáticamente, podría impactar en menor medida en el costo del segundo sistema automático dado que podría procesar de manera eficiente el reporte emitido en el primer paso. Además, con el uso cada vez mayor de las redes sociales e internet para la difusión de promociones y ofertas por parte de las companías, a largo plazo podría resultar muy ventajoso y liberador de recursos humanos contar con autogeneración de promociones competitivas.
 El diseño del sistema no pierde de vista que el objetivo principal de la empresa, en otras palabras, es la rentabilidad. Por eso un objetivo importante que deberá cumplirse es el de la generación de promociones de stock acumulado, es decir, de aquellos conjuntos de equipos que superen cierto número en depósito y sea mejor tratar de despacharlos antes de que se vuelvan obsoletos. Dado que se cumple la administración de stock, el sistema ya cuenta con un monitoreo sumamente actualizado de la mercadería. Según un umbral de alerta definido por el equipo de marketing, el sistema alertará al mismo cuando cierto modele supere ese valor. Otra vez se podrá optar por que marketing diseñe las promociones acordes en este caso de manera manual o que el sistema se encargue y luego marketing las valide. En este caso, la alternativa automatizada no será tan costosa puesto que ya se cuenta con el monitoreo de stock y el tipo de oferta podrá ser parametrizada de antemano por marketing sin mucho problema. De esta manera se ahorrará tiempo y trabajo humano para lograr comercializar de manera efectiva el excedente de mercadería. Por último, es de vital importancia que se pueda regular el catálogo de promociones de manera que se puedan publicar nuevas y no circulen promociones desactualizadas. Todo esto se llevará a cabo mediante una interfaz entre sistema y marketing, lo cual le posibilitará estas acciones al equipo en cuestión.
 
 \subsubsection{Escenarios}
@@ -140,6 +140,51 @@ El diseño del sistema no pierde de vista que el objetivo principal de la empres
 \clearpage
 
 \subsection{Rama Ventas}
+
+Nuestro sistema tiene como objetivo lograr realizar ventas personalizadas y confiables. Para lograr esto tenemos 6 objetivos a cumplir. A saber:
+\begin{enumerate}
+  \item Conocer los datos del cliente.
+  \item Conocer las promociones disponibles para el mismo.
+  \item Adaptar las promociones a necesidades particulares.
+  \item Convencer al cliente de comprar una promoción.
+  \item Reservar la misma.
+  \item Confirmar la compra.
+\end{enumerate}
+\indent Para conocer los datos del cliente se debe averiguar, por un lado, la cantidad de líneas y la facturación mensual que posee en nuestra empresa, y por otro, las necesidades del mismo.\\
+\indent El primer par de objetivos se puede obtener de dos formas: manteniendo los datos de los clientes a visitar en el dispositivo móvil del vendedor, actualizando diáriamente el dispositivo, o dándole la posibilidad de consultar los datos del cliente en el momento de forma inalámbrica.\\
+\\
+\indent Asumiendo que ya conocemos los datos del cliente, queremos conocer que promociones tiene nuestra empresa para él. De manera similar a la anterior, tenemos la opción offline y la online. La offline consiste en mantener las promociones para los clientes a visitar en el dispositivo móvil del vendedor, actualizándo diariamente los datos de las promociones en el mismo. La opción online se basa en tener disponible las promociones para el cliente de manera inalámbrica. Un objetivo blando que nos planteamos es el de contar con las últimas promociones realizadas por marketing. La opción offline contribuye un poco a lograr esto, mientras que la online contribuye bastante, por poder tener disponibles las últimas generadas en el mismo día.\\
+\\
+
+% OJO! Acá hay 2 ramas que no tienen refinamiento. Es a propósito o nos falta?
+
+\indent Nuestro sistema de ventas debe poder, luego que se adaptaron las promociones disponibles para el cliente a sus necesidades particulares y que se lo convenció de comprar una de las mismas, reservar una promoción.\\
+\indent Para cumplir este objetivo se deben dar tres cosas:
+\begin{enumerate}
+  \item Se debe poder ingresar la promoción elegida, para lo cual necesitamos seleccionarla de una lista y enviarla al servidor.
+  \item Se debe poder, dado que sucedió lo anteriormente dicho, comprobar la disponibilidad del stock para reservarla, manteniendo una conexión con el servidor (detalles sobre este objetivo más adelante).
+  \item Se debe poder mantener actualizado el stock, dado que hubo disponibilidad para la reserva. Para esto debemos descontar el stock reservado y notificar al encargado si el stock está pronto a terminarse.
+\end{enumerate}
+
+\indent Por último, asumiendo que se cumplió lo anteriormente descripto, debemos lograr confirmar la compra. Esto se consigue logrando ingresar los datos del cliente necesarios para comprar, y enviándolos al servidor manteniendo la comunicación con el mismo.\\
+\indent Hay dos formas de ingresar los datos del cliente necesarios para comprar: Se puede obtener los datos leyendo el código QR provisto por la AFIP de Cambodia, o se puede completar el formulario de facturación. El primero ayuda a cumplir nuestro objetivo blando de reducir el error humano al ingresar datos, el segundo no lo hace.\\
+
+\indent El objetivo común que describimos como "mantener comunicación con el servidor" influye en cuatro objetivos blandos:
+\begin{enumerate}
+  \item Tener mayor performance.
+  \item Tener disponible el servicio el mayor tiempo posible.
+  \item Tener una comunicación segura.
+  \item Reducir el costo de desarrollo y mantenimiento.
+\end{enumerate}
+
+Dicho objetivo común se puede lograr de dos maneras: mediante internet móvil o mediante envío y recepción de SMS. La forma en la que lo hace, es la siguiente:
+\begin{itemize}
+  \item Internet móvil: ayuda en gran parte al cumplimiento de los objetivos blandos 1 y 3, gracias a su velocidad y capacidad de encriptación. Ayuda también un poco al objetivo 4, y no consigue cumplir muy bien el 2, por lo planteado en el enunciado (el servicio es propenso a caerse).
+
+  \item Envío y recepción de SMS: es una opción mala para el objetivo blando número 3, ya que no existe encriptación, y también para el objetivo 4. Es un poco peor que la alternativa de Internet móvil para el objetivo 1, y ayuda a cumplir el objetivo 2, ya que generalmente es un servicio que está disponible siempre.
+\end{itemize}
+
+\indent Para lograr comunicarse a través de internet, asumimos que el dispositivo móvil del vendedor tiene conexión a internet, y el mismo debe lograr enviar un pedido y recibir una respuesta. Para poder comunicarse a través de SMS, asumimos que el dispositivo cuenta con un chip GSM para conectarse a la red, y que nuevamente puede por este medio enviar un pedido y recibir una respuesta.
 
 \begin{figure}[h!]
   \centering
