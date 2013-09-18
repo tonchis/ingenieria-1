@@ -260,6 +260,22 @@ Dicho objetivo común se puede lograr de dos maneras: mediante internet móvil o
 
 Finalmente, el último pilar sobre el que se apoya la satisfacción del objetivo principal del sistema es el de facturación. En este aspecto se busca una facturación confiable, lo más automatizada posible a partir de las ventas y que no introduzca errores que enlentezcan el proceso de entrega de equipos a los clientes. Para esto, el departamento de facturación recibe la notificación de las ventas realizadas instantáneamente al haber sido realizadas por los vendedores. Luego, deberá proceder a verificar los datos del cliente y chequear que todo esté en regla, lo cual dependerá explícitamente de los estándares de control implementados por el departamento. Una vez que facturación valide al cliente podrá confirmar la venta a través del sistema, lo cual disparará una notificación al encargado de stock para que se ocupe de armar y coordinar la entrega. Por otro lado, facturación deberá seguir más allá y, utilizando los datos digitalmente provistos por el sistema de ventas, realizar la facturación correspondiente en su sistema externo para tal fin. De cualquier manera se garantizará que haya compatibilidad entre ambos sistemas con el objetivo de que los empleados de facturación no necesiten reingresar ningún dato de manera manual y así poder reducir posibles errores en la etapa final del proceso.
 
+\subsubsection{Escenarios}
+
+\begin{itemize}
+  \item \textbf{Confirmar o Rechazar una venta} \\
+    Luego que Victor cerró la venta con el cliente, el sistema notifica al departamento de Facturación para proceder con la verificación del estado del Cliente.
+  \begin{itemize}
+    \item \textbf{Confirmar venta de cliente verificado} \\
+      Fernando, del departamento de Facturación, confirma la venta en el sistema que notifica inmediatamente al encargado de Stock que los equipos pueden ser retirados.
+    \item \textbf{Rechazar venta de cliente verificado} \\
+      Fernando, del departamento de Facturación, rechaza la venta en el sistema que notifica inmediatamente al encargado de Stock que los equipos no deben ser retirados hasta que no se solucione el problema o vuelvan a estar disponibles.
+  \end{itemize}
+
+  \item \textbf{Facturar los equipos y líneas} \\
+    Fernando selecciona las ventas confirmadas a facturar y las exporta en un formato compatible con el sistema de Facturación. La integración entre estos sistemas optimiza el tiempo de Fernando y reduce los errores que éste podría cometer.
+\end{itemize}
+
 \begin{figure}[h!]
   \centering
   \includegraphics[width=1\textwidth]{./imagenes/facturacion.pdf}
