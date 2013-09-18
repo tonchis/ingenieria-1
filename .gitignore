@@ -7,3 +7,4 @@ tp1/informe/*.log
 tp1/informe/*.synctex.gz
 tp1/informe/*.bbl
 tp1/informe/*.blg
+tp1/informe/*.dvi
