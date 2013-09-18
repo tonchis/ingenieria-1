@@ -5,3 +5,5 @@ tp1/informe/*.pdf
 tp1/informe/*.out
 tp1/informe/*.log
 tp1/informe/*.synctex.gz
+tp1/informe/*.bbl
+tp1/informe/*.blg
