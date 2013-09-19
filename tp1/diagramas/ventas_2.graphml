@@ -366,7 +366,7 @@ pronto a terminarse]<y:LabelModel>
           <y:Geometry height="80.0" width="474.8779073544006" x="1740.1049295918947" y="776.4611318904207"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.109375" modelName="custom" textColor="#000000" visible="true" width="324.64453125" x="75.11668805220006" y="14.4453125">Lograr [dado que se reservó una 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.109375" modelName="custom" textColor="#000000" visible="true" width="324.64453125" x="75.11668805220029" y="14.4453125">Lograr [dado que se reservó una 
 promoción, confirmar la compra]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -402,7 +402,7 @@ cliente necesarios para comprar]<y:LabelModel>
           <y:Geometry height="80.0" width="444.6044921875" x="2013.0035735397926" y="947.9343414234818"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.109375" modelName="custom" textColor="#000000" visible="true" width="363.404296875" x="40.60009765625" y="14.4453125">Lograr [dado que se tienen los datos
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.109375" modelName="custom" textColor="#000000" visible="true" width="363.404296875" x="40.60009765624977" y="14.4453125">Lograr [dado que se tienen los datos
  de facturación, enviarlos al servidor]<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1496,7 +1496,7 @@ seguridad<y:LabelModel>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#FF0000" visible="true" width="10.943359375" x="-348.3963112235806" y="-273.128285913015">-<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#008000" visible="true" width="13.5390625" x="-348.3963112235806" y="-272.9387326048817">+<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1659,7 +1659,6 @@ seguridad<y:LabelModel>
       </data>
     </edge>
     <edge id="e60" source="n51" target="n1">
-      <data key="d9"/>
       <data key="d10">
         <y:BezierEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1669,7 +1668,6 @@ seguridad<y:LabelModel>
       </data>
     </edge>
     <edge id="e61" source="n52" target="n1">
-      <data key="d9"/>
       <data key="d10">
         <y:BezierEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1679,7 +1677,6 @@ seguridad<y:LabelModel>
       </data>
     </edge>
     <edge id="e62" source="n53" target="n1">
-      <data key="d9"/>
       <data key="d10">
         <y:BezierEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1689,7 +1686,6 @@ seguridad<y:LabelModel>
       </data>
     </edge>
     <edge id="e63" source="n54" target="n1">
-      <data key="d9"/>
       <data key="d10">
         <y:BezierEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
