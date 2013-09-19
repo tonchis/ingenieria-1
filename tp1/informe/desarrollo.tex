@@ -1,5 +1,6 @@
 ‌\section{Introducción}
-Con este diseño se busca un sistema de venta de telefonía celular que permita tener un alto grado de confiabilidad tanto para el vendedor como para el cliente, que mantenga interconectadas a las distintas partes de la empresa (marketing - ventas - facturación - stock) en todo momento, que automatice algunos procesos internos de la empresa y que agilice y mejore el rendimiento de ventas.
+Con este diseño se busca un sistema de venta de telefonía celular que permita tener un alto grado de confiabilidad tanto para el vendedor como para el cliente, que mantenga interconectadas a las distintas partes de la empresa (marketing - ventas - facturación - stock) en todo momento, que automatice algunos procesos internos de la empresa y que agilice y mejore el rendimiento de ventas.\\
+\indent Para presentar esta propuesta se incluyen dos alternativas de Diagramas de contexto, donde se visualizan las interacciones entre los distintos agentes y el sistema con un listado del detalle de la misma. Por otro lado, se muestra un Diagrama de Objetivos el cual propone los distintos hitos y metas que deberán cumplirse para lograr satisfacer el objetivo global del diseño. Para cada rama importante de este árbol de objetivos se presenta un detalle de escenarios en donde se ejemplifican, de manera coloquial, distintos sucesos de la vida real acordes al sistema implementado.\\
 
 \section{Diagrama de Contexto}
 
@@ -117,9 +118,9 @@ La figura ~\ref{fig:diagStock} presenta la rama de objetivos referente al manejo
 
 \begin{itemize}
   \item \textbf{Ingreso de equipos}
-    Estéban, el encargado de stock, recibe los nuevos equipos en el depósito y los ingresa en el sistema utilizando la interfaz del mismo.
+    Esteban, el encargado de stock, recibe los nuevos equipos en el depósito y los ingresa en el sistema utilizando la interfaz del mismo.
   \item \textbf{Egreso de equipos}
-    Cuando se produce una venta efectiva, el sistema genera una notificación y Estéban debe entregar los equipos al cliente y marcarlos como retirados en el sistema.
+    Cuando se produce una venta efectiva, el sistema genera una notificación y Esteban debe entregar los equipos al cliente y marcarlos como retirados en el sistema.
 \end{itemize}
 
 \subsection{Rama Promociones}
@@ -133,39 +134,38 @@ El subárbol de objetivos correspondiente a las promociones fue dividido en dos 
 
 \begin{itemize}
   \item \textbf{Promociones parametrizadas} \\
-    Martín, de Marketing, consulta en el sistema la cantidad de líneas que posee el cliente y el consumo del mismo. Luego, utiliza esta información para categorizarlo.
-    Al mismo tiempo, el departamento de Marketing trabaja en promociones basadas en las categorías de los clientes.
+    Cada trimestre el equipo de Marketing analiza el estado de sus clientes y en base a ello diseña distitnas categorías para ubicarlos. Martín, un empleado de Marketing, consulta en el sistema la cantidad de líneas que posee el cliente 'Los Pollos Hermanos' y el consumo del mismo. El cliente posee 25 líneas de celular de las cuales 10 tienen un plan de datos de internet y el consumo total promedia en \$5000 para el último período. Luego de un trabajo en equipo se diseñan 4 categorías (Clases A,B,C,D), y 'Los Pollos Hermanos' es catalogado como un cliente 'Clase B' dado que la misma abarca clientes con 20-45 líneas y al menos 10 planes de datos, con un consumo promedio mínimo de \$3500. A partir de haber pautado la recategorización de clientes para ese trimestre, el equipo de marketing se abocará el resto del período a diseñar promociones asociadas a las distintas clases según los parámetros de cada una.
 
   \item \textbf{Promociones competitivas}
   \begin{itemize}
-    \item \textbf{Conocer el estado del mercado - Automaticamente} \\
-      Martín y el resto del equipo de Marketing ingresan en el sistema las páginas de interes de donde sacar información de la competencia, ya sean redes sociales, blogs, diarios e inclusive las mismas páginas de la competencia. El sistema fue desarrollado para obtener información valiosa de estos sitios donde luego de técnicas de DataMining genera un reporte que es enviado al departamento de Marketing.
+    \item \textbf{Conocer el estado del mercado - Automáticamente} \\
+      Martín y el resto del equipo de Marketing ingresan en el sistema las páginas de interés de donde sacar información de la competencia, ya sean redes sociales, blogs, diarios e inclusive las mismas páginas oficiales de las otras empresas. El sistema fue desarrollado para obtener información valiosa de estos sitios utilizando técnicas de DataMining para luego generar un reporte que es enviado al departamento de Marketing. Dado que esta funcionalidad es costosa puesto que debe reacondicionarse constantemente y se utilizan consultores externos para tal fin la herramienta suele estar un poco desactualizada y no siempre genera reportes con datos muy útiles. De todas maneras los empleados de marketing ganan mucho tiempo el cuál invertirán en el diseño concreto de las promociones.
     \item \textbf{Conocer el estado del mercado - Manualmente} \\
-      Martín, Manuel, Miriam y Marisol revisan periodicamente las redes sociales, blogs, diarios y páginas de la competencia para elaborar el reporte que necesita Marketing para poder diseñar promociones competitivas.
+      Martín, Manuel, Miriam y Marisol revisan periodicamente las redes sociales, blogs, diarios y páginas de la competencia para elaborar el reporte que necesita Marketing para poder diseñar promociones competitivas. Es un trabajo arduo y que requiere de un análisis minucioso de todas las fuentes de información, pero por lo general una vez terminado las conclusiones resultan muy útiles para diseñar promociones originales y rentables.
     \item \textbf{Conocer el estado del mercado - Híbrido} \\
-      Manuel y Marisol revisan periodicamente las páginas de la competencia y blogs, mientras que a la par el sistema obtiene información de las redes sociales seleccionadas y en conjunto elaborar un reporte final que será necesario por el departamento de Marketing para elaborar las nuevas promociones competitivas.
+      Manuel y Marisol revisan perioóicamente las páginas de la competencia y blogs, mientras que a la par el sistema obtiene información de las redes sociales seleccionadas en tiempo real. Este análisis automático es menos costoso porque su espectro de búsqueda es reducido y acotado siempre a las mismas redes sociales. Es más dinámico, se puede realizar con más frecuencia y de ambos mecanismos los empleados elaboran un reporte final que será utilizado luego para ponderar las promociones competitivas a confeccionar.
   \end{itemize}
 
   \begin{itemize}
-    \item \textbf{Crear promociones en base al reporte - Manualmente} \\
+    \item \textbf{Crear promociones en base a reporte - Manualmente} \\
       Miriam y Marisol analizan el reporte sobre el estado del mercado, discuten y diseñan nuevas promociones.
-    \item \textbf{Crear promociones en base al reporte - Automaticamente y Verificarlas} \\
-      El sistema parte de la información obtenida en el reporte y diseña algunas promociones similares a las de la competencia.
-      Luego de generarlas, el equipo de Marketing es notificado sobre las promociones diseñadas y es este equipo quien las verifíca.
+    \item \textbf{Crear promociones en base a reporte - Automáticamente + Verificación} \\
+      Miriam y Marisol deben introducir manualmente algunos datos clave de el reporte que generaron manualmente para que el sistema diseñe promociones competitivas similares a las recolectadas por los empleados. Esto es nuevamente tedioso, ya que tienen que reajustar la información recabada para poder utilizarla como punto de entrada a la función autogeneradora de promociones.\\
+      En cambio, dado un reporte de mercado autogenerado, el mismo habrá sido configurado para que sus datos de salida sean válidos como entrada al sistema autogenerador de promociones, con lo cual se realiza todo en un mismo flujo de trabajo lo que implica una gran ventaja en términos de tiempo y esfuerzo para los empleados de marketing. No obstante la calidad del resultado estará sujeta a la precisión del reporte de mercado ingresado.\\
+Finalmente, en ambos casos, el equipo de Marketing es notificado al finalizar el diseño automático de promociones para encargarse de su verificación.
   \end{itemize}
 
   \item \textbf{Promociones de Stock acumulado} \\
     El sistema mantiene actualizado el inventario de la empresa y registro de los movimientos de cada equipo. Cuando el sistema detecta que bajan las ventas de determinados equipos o se empieza a acumular en el depósito, éste notifica al departamento de Marketing para crear promociones con estos equipos.
   \begin{itemize}
     \item \textbf{Crear promociones - Manualmente} \\
-      Manuel y Miriam comienzan a diseñar una promoción con los equipos acumulados y la cargan en el sistema.
-    \item \textbf{Crear promociones - Automaticamente y Verificarlas} \\
-      El sistema propone algunas promociones creadas por el mismo y son Miriam y Manuel los que verifícan las promociones.
+      Manuel y Miriam detectan que el iPhone 4, recientemente salido al mercado, no está registrando las ventas esperadas, y al tiempo se alarman al recibir un llamado del encargado de stock debido a que hay un excedente inusual de este producto. Al mismo tiempo observan en las noticias que ese modelo había salido de fábrica con un problema en su antena, lo que generaba problemas con la señal y debido a esto su fama iba de mal en peor. Para poder disponer de las unidades en depósito y no generar pérdidas a la empresa, ambos empleados deciden diseñar una promoción especial donde ofrecen un $2x1$ de ese modelo con plan de datos bonificado por 6 meses.
+    \item \textbf{Crear promociones - Automaticamente + Verificación} \\
+      El equipo de Marketing ha configurado un umbral de alarma de 600 unidades en depósito durante dos semanas seguidas para cualquier modelo de celular. Al generarse una de las notificaciones del sistema, el mismo captura este alerta y calcula, en base a ciertas reglas de negocio predefinidas por Marketing, distintas promociones de stock acumulado automáticas donde se buscará poder reactivar la venta de ese modelo con la mejor rentabilidad posible. Manuel, en su avidez por traerle a la empresa el mayor rédito posible, realiza una carga de parámetros de negocios un tanto errónea por lo que, cuando el iPhone 4s deja de ser requerido debido a sus problemas técnicos, el sistema crea una promo donde ofrece 1 (una) unidad por el precio de 3 (tres). Afortunadamente Miriam realiza su trabajo de verificación, detecta lo absurdo de la propuesta y la corrige según un criterio más sensato antes de que se publique a la flota de vendedores.
   \end{itemize}
 
   \item \textbf{Actualizar la lista de promociones vigentes} \\
-    El equipo de Marketing da de alta las promociones elaboradas y verificadas que se encuentran en el sistema. Éste mismo equipo revisa la lista de promociones del sistema y se encarga de eliminar las promociones que quedaron desactualizadas u obsoletas.
-
+    Marisol tiene pendientes 5 promociones navideñas que ha realizado con su equipo, 2 de las cuales fueron autogeneradas y luego verificadas, y el resto diseñadas manualmente. Procede a cargarlas y a publicarlas para que el resto de los vendedores puedan verlas, pero pronto detecta que una de las diseñadas automáticamente no fue correctamente verificada y está mal formulada. Rápidamente la elimina y actualiza el catálogo para que los vendedores (bajo el sistema con internet) puedan recibir en tiempo real la información correcta. Al mes siguiente, Marisol misma es la encargada de retirar las promociones que había cargado dado que la época de navidad ha pasado. 
 \end{itemize}
 
 \clearpage
@@ -239,36 +239,18 @@ Dicho objetivo común se puede lograr de dos maneras: mediante internet móvil o
 
 \begin{itemize}
   \item \textbf{Conocer los datos del cliente} \\
-    Victor, el vendedor entra en las oficinas de Clelia \& Company.
+    Víctor, vendedor audaz, entra en las oficinas de Clelia \& Company.
     Luego de la introducción comienza con su trabajo consultando al sistema
-    la cantidad de líneas y facturación del cliente y a su vez al cliente sus necesidades.
-    El sistema puede obtener los datos de alguna de las dos maneras, o bien consulta al
-    servidor a través de internet o bien responde con los datos cargados al iniciar el día laboral.
+    la cantidad de líneas y facturación del cliente, así como también su categoría. Esto lo obtiene en tiempo real a través de internet, que por fortuna en los primeros minutos de la reunión funciona correctamente. Por otro lado le consulta al cliente cuán satisfecho está con el servicio, si necesita ampliar su red de telefonía, necesita más planes de datos, o por el contrario reducir costos, actualizar equipos, etc.\\
+	Remo Erdosain, por otro lado, acude por la mañana a la central de la empresa de telefonía para que carguen en su dispositvo la última base de clientes y promociones, para luego embarcarse a visitar a su primer cliente. Dado que el servicio de internet sufre caídas permanentemente y no desea pasar más situaciones incómodas ante sus clientes, Remo ha pedido a la empresa realizar su trabajo mediante otro sistema de comunicación que ofrezca mejor cobertura y permanencia de servicio. Es así como llega a las oficinas de la 'Industrias Gobias' para encontrarse con su primer cliente.\\
 
-  \item \textbf{Conocer y Adaptar las promociones para el cliente} \\
-    Victor, luego de conocer las necesidades del cliente, utiliza su dispositivo para obtener las
-    promociones que se ajustan a las necesidades del cliente y demás promociones creadas por el
-    departamento de Marketing. Una vez más, el sistema puede obtener los datos de alguna de las dos maneras,
-    o bien consulta al servidor a través de internet o bien responde con los datos cargados al iniciar el día laboral.
-    Victor, como excelente vendedor, utiliza sus habilidades para incrementar la venta adaptando las promociones al cliente.
-    No sólo es hábil para adaptar las promociones sino que también logra convencer al cliente de concretar la venta.
+  \item \textbf{Conocer y Adaptar las promociones para el cliente / Reservar una promoción} \\
+    Victor, luego de conocer las necesidades del cliente, utiliza su dispositivo para obtener las distintas promociones disponibles. Dado que ha identificado al consumidor, el sistema trae las promociones acorde a su categoría, además de otras especiales muy competitivas, y algunas otras al azar. Víctor puede ajustar esta búsqueda introduciendo la información recabada en la entrevista para poder precisar mejor de qué dispone para satisfacer al cliente. Por mala fortuna, durante esta consulta de promociones el servicio de internet tiene un breve corte lo cual fuerza a Víctor a desplegar sus dotes comerciales para distraer al cliente y evitar mostrar la debilidad de su servicio. Una vez retornada la conexión de internet móvil, Víctor selecciona las 3 promociones que mejor se ajustan a lo expresado por Clelia y, técnicas persuasivas mediante, lo logra convencer de optar por una. Continuando con la mala fortuna, al querer realizar la reserva el sistema le informa al vendedor que ya no quedan suficientes unidades disponibles para satisfacer el pedido, con lo cual Víctor debe volver a la carga para lograr convencer al cliente de que opte por la segunda opción. Dado que el cliente se muestra un tanto reacio ante la no disponibilidad de su primera elección, Víctor se toma la licencia de modificar levemente la promoción cargada por Marketing para personalizarla y volverla más atractiva económicamente hacia el cliente. Esto da buenos resultados, con lo cual Víctor logra venderle esta promoción modificada que no presenta problemas de stock.\\
+Remo Erdosain acude tranquilo a su primer cliente confiando en que esta vez no tendrá problemas de conectividad con internet con el nuevo sistema. Habiéndo consultado los datos del mismo procede a listar las promociones disponibles del día. Lamentablemente, Remo no posee el catálogo actualizado puesto que lo cargó en la mañana y Marisol, de Marketing, decidió remover en el interín de la mañana algunas promociones que, debido a la inflación, habían quedado demasiado desactualizadas. Remo, desconociendo este cambio, logra convencer al cliente de que opte por una de estas promociones ya obsoletas, pero a la hora de realizar la reserva el sistema le comunica que esa promoción ya no está disponible. Finalmente el cliente decide no contratar una nueva promoción, por lo que Remo pasa a su segundo visitado del día. Nuevamente el panorama parece estar destinado al fracaso puesto que Remo elige una promoción cuyo stock acaba de ser agotado por otra vendedora - Virginia - en otra punta de la ciudad (aunque él no lo sabe). Remo procede a realizar la reserva pero nota que la confirmación de la misma demora más de lo usual, y en su interior reflexiona que probablemente sea producto de que la comunicación con la central se realiza por SMS y no por internet. En el mismo momento, el cliente de Virginia cambia repentinamente de opinión y puesto que la vendedora aún no había confirmado la venta logra cancelarla, lo cual restituye las unidades de stock antes inhabilitadas. Dado que el SMS detrás de esta cancelación llega antes que el de Remo, éste nunca se entera de que al querer reservar la promoción no había stock, y gracias a la tardanza del mensaje evita volver a pasar por una situación desalentadora y logra concretar su venta.
 
-  \item \textbf{Reservar una promoción} \\
-    Víctor y Virginia, ambos vendedores en clientes diferentes, cierran una venta cada uno sobre la misma
-    promoción. Ambos envían el formulario de confirmación de una promoción desde sus dispositivos móviles.
-
-    La solicitud de Víctor se procesa primero, quien recibe del sistema la
-    notificación de que su promoción ha sido reservada. Luego de esto, el stock
-    es insuficiente como para realizar otra venta de ese estilo. Al momento que
-    llega al sistema el pedido de Virginia, el sistema le notifica que no puede
-    realizarse la operación y que la promoción está deshabilitada por falta de
-    stock.
-
-  \item \textbf{Confirmar la compra} \\
-    Luego de que Víctor recibió la notificación de que el stock para su 
-    promoción está disponible ingresa en su dispositivo móvil los datos del cliente necesarios para la factura (mediante el formulario o leyendo un código 
-    QR), la tarjeta de crédito y los números que el cliente desea para las líneas nuevas uno a uno. 
-    Finalmente envía el formulario al servidor.
+  \item \textbf{Confirmar la venta} \\
+	Para ratificar la reserva y así enviar la venta a facturación, Víctor debe ingresar manualmente los datos de facturación del cliente como tarjeta de crédito, datos de AFIP, y además Clelia puede optar por elegir algún prefijo para las nuevas líneas de celulares. Víctor tiene mucho cuidado al ingresar estos datos porque sabe, por experiencias pasadas, que un error en el ingreso de los datos puede frustrar la venta o retrasar el trámite e impactar negativamente en el envío de los equipos al cliente.\\
+Remo Erdosain, en cambio, cuenta con un lector de código QR para poder procesar los datos de facturación del cliente de AFIP y así evitar cualquier tipo de error en el ingreso de los mismos.\\
 \end{itemize}
 
 
