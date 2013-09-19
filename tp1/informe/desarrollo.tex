@@ -237,6 +237,28 @@ Dicho objetivo común se puede lograr de dos maneras: mediante internet móvil o
 
 \indent Para lograr comunicarse a través de internet, asumimos que el dispositivo móvil del vendedor tiene conexión a internet, y el mismo debe lograr enviar un pedido y recibir una respuesta. Para poder comunicarse a través de SMS, asumimos que el dispositivo cuenta con un chip GSM para conectarse a la red, y que nuevamente puede por este medio enviar un pedido y recibir una respuesta.
 
+\subsubsection{Escenarios}
+
+\begin{itemize}
+  \item \textbf{Reservar una promoción} \\
+    Víctor y Virginia, ambos vendedores en clientes diferentes, cierran una venta cada uno sobre la misma 
+    promoción. Ambos envían el formulario de confirmación de una promoción desde sus 
+    dispositivos móviles.
+    
+    La solicitud de Víctor se procesa primero, quien recibe del sistema la 
+    notificación de que su promoción ha sido reservada. Luego de esto, el stock 
+    es insuficiente como para realizar otra venta de ese estilo. Al momento que 
+    llega al sistema el pedido de Virginia, el sistema le notifica que no puede 
+    realizarse la operación y que la promoción está deshabilitada por falta de 
+    stock.
+   
+  \item \textbf{Confirmar la compra}
+    Luego de que Víctor recibió la notificación de que el stock para su 
+    promoción está disponible ingresa en su dispositivo móvil los datos del cliente necesarios para la factura (mediante el formulario o leyendo un código 
+    QR), la tarjeta de crédito y los números que el cliente desea para las líneas nuevas uno a uno. 
+    Finalmente envía el formulario al servidor.
+\end{itemize}
+
 \begin{figure}[h!]
   \centering
   \includegraphics[width=1.5\textwidth, angle=90]{./imagenes/ventas_1.pdf}
