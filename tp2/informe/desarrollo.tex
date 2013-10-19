@@ -8,6 +8,21 @@ Con este diseño se busca un sistema de venta de telefonía celular que permita 
 
 \section{Casos de Uso}
 
+\begin{tabular}{ | p{7cm} | p{7cm} | }
+  \hline
+  \multicolumn{2} {|l|} {Caso de Uso: Autenticándose} \\
+  \multicolumn{2} {|l|} {Actores: Vendedor, Encargado de Stock, Facturación, Marketing} \\
+  \multicolumn{2} {|l|} {Post: El usuario está autenticado en el sistema} \\
+  \hline
+  Curso Normal & Curso Alternativo\\
+  \hline
+  1. El usuario ingresa a la interfaz web del sistema. & \\
+  2. El usuario ingresa sus credenciales. & \\
+  3. El sistema comprueba la validez de las credenciales y las acepta. & 3. El sistema comprueba la validez de las credenciales y las rechaza\\
+  4. El usuario queda autenticado en el sistema. & 4. El usuario es redirigido al formulario para reingresar sus credenciales.\\
+  \hline
+\end{tabular}
+
 \clearpage
 
 \section{Diagramas de actividad}
