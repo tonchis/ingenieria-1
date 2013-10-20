@@ -12,6 +12,9 @@ Con este diseño se busca un sistema de venta de telefonía celular que permita 
 
 \subsubsection{Descripción de Casos de Uso}
 
+PREGUNTA: las descripciones tienen que hacer referencia a la interfaz? Ej: 'El usuario toca el botón X' o alcanza con decir 'El usuario hace X'?
+\vspace{0.5cm}
+
 \begin{tabular}{ | p{7cm} | p{7cm} | }
   \hline
   \multicolumn{2} {|l|} {Caso de Uso: Autenticándose.} \\
@@ -27,7 +30,9 @@ Con este diseño se busca un sistema de venta de telefonía celular que permita 
   \hline
 \end{tabular}
 
-\begin{tabular}{ | p{7cm} | p{7cm} | }
+\vspace{1cm}
+
+\begin{tabular}{ | p{14cm} | }
   \hline
   Caso de Uso: Actualizando datos. \\
   Actores: Vendedor. \\
@@ -40,21 +45,29 @@ Con este diseño se busca un sistema de venta de telefonía celular que permita 
   \hline
 \end{tabular}
 
+\vspace{1cm}
+
 \begin{tabular}{ | p{7cm} | p{7cm} | }
   \hline
-  Caso de Uso: Reservando equipos. \\
-  Actores: Encargado de Stock. \\
-  Pre: Se realizó la venta de una promoción. \\
-  Post: El encargado de stock es notificado y se reservan los equipos correspondientes a la promoción vendida. \\
+  \multicolumn{2} {|l|} {Caso de Uso: Reservando equipos.} \\
+  \multicolumn{2} {|l|} {Actores: Encargado de Stock.} \\
+  \multicolumn{2} {|l|} {Pre: Se realizó la venta de una promoción.} \\
+  \multicolumn{2} {|l|} {Post: El encargado de stock es notificado y se reservan los equipos correspondientes a la promoción vendida.} \\
   \hline
-  Curso Normal\\
+  Curso Normal & Curso Alternativo\\
   \hline
-  1. El sistema marca como reservados los equipos correspondientes con la promoción vendida.\\
-  2. El sistema notifica al encargado de stock sobre los equipos reservados.\\
+  1. El sistema verifica que haya suficientes equipos en stock para satisfacer la promoción. & 1. El sistema verifica que los equipos en stock no alcanzan para satisfacer la promoción\\
+  2. El sistema marca como reservados los equipos correspondientes con la promoción vendida. & 2. Se notifica al vendedor que la promoción no puede ser vendida. (????) \\
+  3. El sistema notifica al encargado de stock sobre los equipos reservados. & \\
   \hline
 \end{tabular}
 
-\begin{tabular}{ | p{7cm} | p{7cm} | }
+\vspace{0.5cm}
+PREGUNTA: Si en el curso alternativo aparece un actor que no es parte del curso normal, hay que ponerle una flechita en el diagrama de CU y listarlo en el encabezado de la descripción igual? 
+
+\vspace{1cm}
+
+\begin{tabular}{ | p{14cm} | }
   \hline
   Caso de Uso: Avisando stock bajo. \\
   Actores: Encargado de Stock. \\
@@ -68,20 +81,74 @@ Con este diseño se busca un sistema de venta de telefonía celular que permita 
   \hline
 \end{tabular}
 
+\vspace{1cm}
 
 \begin{tabular}{ | p{7cm} | p{7cm} | }
   \hline
-  \multicolumn{2} {|l|} {Caso de Uso: Autenticándose.} \\
-  \multicolumn{2} {|l|} {Actores: Vendedor, Encargado de Stock, Facturación, Marketing.} \\
+  \multicolumn{2} {|l|} {Caso de Uso: Verificando venta.} \\
+  \multicolumn{2} {|l|} {Actores: Facturación.} \\
   \multicolumn{2} {|l|} {Pre: El usuario está autenticado con el sistema y se registró una venta con stock disponible.} \\
   \multicolumn{2} {|l|} {Post: La venta se confirma y pasa al sistema de facturación.} \\
   \hline
   Curso Normal & Curso Alternativo\\
   \hline
   1. Facturación verifica la situación del cliente y aprueba la venta. & 1. Facturación verifica la situación del cliente y rechaza la venta. \\
-  2. Se pasan los datos al sistema de facturación & 2. Se notifica al cliente que la venta fue rechazada. (?????)\\
+  2. Se pasan los datos al sistema de facturación & 2. Se notifica al vendedor que la venta fue rechazada. \\
   \hline
 \end{tabular}
+
+\vspace{1cm}
+
+\begin{tabular}{ | p{14cm} | }
+  \hline
+  Caso de Uso: Registrando venta. \\
+  Actores: Vendedor, Encargado de Stock, Facturación. \\
+  Pre: El usuario está autenticado con el sistema y el vendedor tiene datos de clientes y promociones actualizados. \\
+  Post: Se registra una venta en el sistema. \\
+  \hline
+  Curso Normal\\
+  \hline
+  1. El vendedor decide junto al cliente qué promoción adquirir . \\
+  2. El vendedor ingresa elige en su dispositivo móvil la promoción que su cliente desea. \\
+  3. Usa Reservando equipos. \\
+  4. Se extiende con Avisando stock bajo. \\
+  5. Usa Verificando venta. \\
+  \hline
+\end{tabular}
+
+\vspace{1cm}
+
+\begin{tabular}{ | p{14cm} | }
+  \hline
+  Caso de Uso: Ingresando equipos nuevos. \\
+  Actores: Encargado de Stock. \\
+  Pre: El usuario está autenticado con el sistema y nuevos equipos fueron ingresados al almacén. \\
+  Post: Los nuevos equipos quedan dados de alta en el sistema. \\
+  \hline
+  Curso Normal\\
+  \hline
+  1. El usuario actualiza la cantidad de equipos correspondientes a los ingresados recientemente. \\
+  \hline
+\end{tabular}
+
+\vspace{1cm}
+
+\begin{tabular}{ | p{14cm} | }
+  \hline
+  Caso de Uso: Administrando promociones. \\
+  Actores: Marketing. \\
+  Pre: El usuario está autenticado con el sistema. \\
+  Post: Se actualizan las promociones disponibles. \\
+  \hline
+  Curso Normal\\
+  \hline
+  1. El departamento de Marketing realiza un estudio de mercado para decidir qué promociones ofrecer según tipo de cliente. \\
+  2. El usuario ingresado en el sistema crea, edita o borra una promoción. \\
+  \hline
+\end{tabular}
+
+\vspace{0.5cm}
+PREGUNTA: es muy alto nivel este caso de uso? Deberíamos tener 'creando promoción', 'editando promoción' y 'borrando promoción'?
 
 
 \subsection{Casos de Uso}
