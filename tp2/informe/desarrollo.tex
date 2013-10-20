@@ -8,11 +8,15 @@ Con este diseño se busca un sistema de venta de telefonía celular que permita 
 
 \section{Casos de Uso}
 
+\subsection{Casos de Uso MVP}
+
+\subsubsection{Descripción de Casos de Uso}
+
 \begin{tabular}{ | p{7cm} | p{7cm} | }
   \hline
-  \multicolumn{2} {|l|} {Caso de Uso: Autenticándose} \\
-  \multicolumn{2} {|l|} {Actores: Vendedor, Encargado de Stock, Facturación, Marketing} \\
-  \multicolumn{2} {|l|} {Post: El usuario está autenticado en el sistema} \\
+  \multicolumn{2} {|l|} {Caso de Uso: Autenticándose.} \\
+  \multicolumn{2} {|l|} {Actores: Vendedor, Encargado de Stock, Facturación, Marketing.} \\
+  \multicolumn{2} {|l|} {Post: El usuario está autenticado en el sistema.} \\
   \hline
   Curso Normal & Curso Alternativo\\
   \hline
@@ -22,6 +26,67 @@ Con este diseño se busca un sistema de venta de telefonía celular que permita 
   4. El usuario queda autenticado en el sistema. & 4. El usuario es redirigido al formulario para reingresar sus credenciales.\\
   \hline
 \end{tabular}
+
+\begin{tabular}{ | p{7cm} | p{7cm} | }
+  \hline
+  Caso de Uso: Actualizando datos. \\
+  Actores: Vendedor. \\
+  Pre: El usuario está autenticado en el sistema. \\
+  Post: El vendedor tiene actualizados en su dispositivo móvil promociones y datos de clientes. \\
+  \hline
+  Curso Normal\\
+  \hline
+  Online o manual (sin auth)?\\
+  \hline
+\end{tabular}
+
+\begin{tabular}{ | p{7cm} | p{7cm} | }
+  \hline
+  Caso de Uso: Reservando equipos. \\
+  Actores: Encargado de Stock. \\
+  Pre: Se realizó la venta de una promoción. \\
+  Post: El encargado de stock es notificado y se reservan los equipos correspondientes a la promoción vendida. \\
+  \hline
+  Curso Normal\\
+  \hline
+  1. El sistema marca como reservados los equipos correspondientes con la promoción vendida.\\
+  2. El sistema notifica al encargado de stock sobre los equipos reservados.\\
+  \hline
+\end{tabular}
+
+\begin{tabular}{ | p{7cm} | p{7cm} | }
+  \hline
+  Caso de Uso: Avisando stock bajo. \\
+  Actores: Encargado de Stock. \\
+  Pre: El stock de alguno de los equipos asociado a promociones vigentes está pronto a agotarse. \\
+  Post: El encargado de stock es notificado sobre el equipo pronto a agotarse. \\
+  \hline
+  Curso Normal\\
+  \hline
+  1. El sistema marca como reservados los equipos correspondientes con la promoción vendida.\\
+  2. El sistema notifica al encargado de stock sobre los equipos reservados.\\
+  \hline
+\end{tabular}
+
+
+\begin{tabular}{ | p{7cm} | p{7cm} | }
+  \hline
+  \multicolumn{2} {|l|} {Caso de Uso: Autenticándose.} \\
+  \multicolumn{2} {|l|} {Actores: Vendedor, Encargado de Stock, Facturación, Marketing.} \\
+  \multicolumn{2} {|l|} {Pre: El usuario está autenticado con el sistema y se registró una venta con stock disponible.} \\
+  \multicolumn{2} {|l|} {Post: La venta se confirma y pasa al sistema de facturación.} \\
+  \hline
+  Curso Normal & Curso Alternativo\\
+  \hline
+  1. Facturación verifica la situación del cliente y aprueba la venta. & 1. Facturación verifica la situación del cliente y rechaza la venta. \\
+  2. Se pasan los datos al sistema de facturación & 2. Se notifica al cliente que la venta fue rechazada. (?????)\\
+  \hline
+\end{tabular}
+
+
+\subsection{Casos de Uso}
+
+\subsubsection{Descripción de Casos de Uso}
 
 \clearpage
 
