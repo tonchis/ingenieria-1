@@ -12,9 +12,6 @@ Con este diseño se busca un sistema de venta de telefonía celular que permita 
 
 \subsubsection{Descripción de Casos de Uso}
 
-PREGUNTA: las descripciones tienen que hacer referencia a la interfaz? Ej: 'El usuario toca el botón X' o alcanza con decir 'El usuario hace X'?
-\vspace{0.5cm}
-
 \begin{tabular}{ | p{7cm} | p{7cm} | }
   \hline
   \multicolumn{2} {|l|} {Caso de Uso: Autenticándose.} \\
@@ -47,31 +44,11 @@ PREGUNTA: las descripciones tienen que hacer referencia a la interfaz? Ej: 'El u
 
 \vspace{1cm}
 
-\begin{tabular}{ | p{7cm} | p{7cm} | }
-  \hline
-  \multicolumn{2} {|l|} {Caso de Uso: Reservando equipos.} \\
-  \multicolumn{2} {|l|} {Actores: Encargado de Stock.} \\
-  \multicolumn{2} {|l|} {Pre: Se realizó la venta de una promoción.} \\
-  \multicolumn{2} {|l|} {Post: El encargado de stock es notificado y se reservan los equipos correspondientes a la promoción vendida.} \\
-  \hline
-  Curso Normal & Curso Alternativo\\
-  \hline
-  1. El sistema verifica que haya suficientes equipos en stock para satisfacer la promoción. & 1. El sistema verifica que los equipos en stock no alcanzan para satisfacer la promoción\\
-  2. El sistema marca como reservados los equipos correspondientes con la promoción vendida. & 2. Se notifica al vendedor que la promoción no puede ser vendida. (????) \\
-  3. El sistema notifica al encargado de stock sobre los equipos reservados. & \\
-  \hline
-\end{tabular}
-
-\vspace{0.5cm}
-PREGUNTA: Si en el curso alternativo aparece un actor que no es parte del curso normal, hay que ponerle una flechita en el diagrama de CU y listarlo en el encabezado de la descripción igual? 
-
-\vspace{1cm}
-
 \begin{tabular}{ | p{14cm} | }
   \hline
   Caso de Uso: Avisando stock bajo. \\
   Actores: Encargado de Stock. \\
-  Pre: El stock de alguno de los equipos asociado a promociones vigentes está pronto a agotarse. \\
+  Pre: El usuario está autenticado en el sistema y l stock de alguno de los equipos asociado a promociones vigentes está pronto a agotarse. \\
   Post: El encargado de stock es notificado sobre el equipo pronto a agotarse. \\
   \hline
   Curso Normal\\
@@ -99,20 +76,22 @@ PREGUNTA: Si en el curso alternativo aparece un actor que no es parte del curso 
 
 \vspace{1cm}
 
-\begin{tabular}{ | p{14cm} | }
+\begin{tabular}{ | p{7cm} | p{7cm} | }
   \hline
-  Caso de Uso: Registrando venta. \\
-  Actores: Vendedor, Encargado de Stock, Facturación. \\
-  Pre: El usuario está autenticado con el sistema y el vendedor tiene datos de clientes y promociones actualizados. \\
-  Post: Se registra una venta en el sistema. \\
+   \multicolumn{2} {| p{10cm} |} {Caso de Uso: Registrando venta.} \\
+   \multicolumn{2} {| p{10cm} |} {Actores: Vendedor, Encargado de Stock, Facturación.} \\
+   \multicolumn{2} {| p{10cm} |} {Pre: El usuario está autenticado con el sistema y el vendedor tiene datos de clientes y promociones actualizados.} \\
+   \multicolumn{2} {| p{10cm} |} {Post: Se registra una venta en el sistema.} \\
   \hline
-  Curso Normal\\
+  Curso Normal & Curso Alternativo\\
   \hline
-  1. El vendedor decide junto al cliente qué promoción adquirir . \\
-  2. El vendedor ingresa elige en su dispositivo móvil la promoción que su cliente desea. \\
-  3. Usa Reservando equipos. \\
-  4. Se extiende con Avisando stock bajo. \\
-  5. Usa Verificando venta. \\
+  1. El vendedor decide junto al cliente qué promoción adquirir. & \\
+  2. El vendedor ingresa elige en su dispositivo móvil la promoción que su cliente desea. & \\
+  3. El sistema verifica que haya suficientes equipos en stock para satisfacer la promoción. & 3. El sistema verifica que los equipos en stock no alcanzan para satisfacer la promoción\\
+  4. El sistema marca como reservados los equipos correspondientes con la promoción vendida. & 4. Se notifica al vendedor que la promoción no puede ser vendida. \\
+  5. El sistema notifica al encargado de stock sobre los equipos reservados. & \\ 
+  6. Se extiende con Avisando stock bajo. & \\
+  7. Usa Verificando venta. & \\
   \hline
 \end{tabular}
 
@@ -146,10 +125,6 @@ PREGUNTA: Si en el curso alternativo aparece un actor que no es parte del curso 
   2. El usuario ingresado en el sistema crea, edita o borra una promoción. \\
   \hline
 \end{tabular}
-
-\vspace{0.5cm}
-PREGUNTA: es muy alto nivel este caso de uso? Deberíamos tener 'creando promoción', 'editando promoción' y 'borrando promoción'?
-
 
 \subsection{Casos de Uso}
 
