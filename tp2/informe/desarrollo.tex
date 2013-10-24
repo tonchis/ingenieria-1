@@ -287,10 +287,11 @@ Con este diseño se busca un sistema de venta de telefonía celular que permita 
   Caso de Uso: Seleccionando sitios y usuarios para monitorear. \\
   Actores: Marketing. \\
   Pre: El usuario está autenticado con el sistema. \\
-  Post: \\
+  Post: El sistema puede comenzar a monitorear medios. \\
   \hline
   Curso Normal\\
   \hline
+  1. El usuario selecciona qué usuarios de redes sociales y sitios corporativos el sistema deberá monitorear. \\
   \hline
 \end{tabular}
 
@@ -301,10 +302,13 @@ Con este diseño se busca un sistema de venta de telefonía celular que permita 
   Caso de Uso: Validando promoción automática de stock acumulado. \\
   Actores: Marketing. \\
   Pre: El usuario está autenticado con el sistema. \\
-  Post: \\
+  Post: Se crea una promoción en base al stock acumulado, autorizada por Marketing. \\
   \hline
   Curso Normal\\
   \hline
+  1. El sistema detecta que se acumuló mucho stock de un determinado equipo. \\
+  2. El sistema crea una promoción basada en el stock acumulado de dicho equipo y notifica al ususario. \\
+  3. El usuario ve la promoción, valida la misma y pasa a estar disponible para los vendedores. \\
   \hline
 \end{tabular}
 
@@ -315,10 +319,11 @@ Con este diseño se busca un sistema de venta de telefonía celular que permita 
   Caso de Uso: Validando promoción automática de mercado. \\
   Actores: Marketing. \\
   Pre: El usuario está autenticado con el sistema. \\
-  Post: \\
+  Post: Se crea una promoción en base al estado del mercado, autorizada por Marketing. \\
   \hline
   Curso Normal\\
   \hline
+  1. El usuario ve la promoción, valida la misma y pasa a estar disponible para los vendedores. \\
   \hline
 \end{tabular}
 
@@ -327,12 +332,13 @@ Con este diseño se busca un sistema de venta de telefonía celular que permita 
 \begin{tabular}{ | p{14cm} | }
   \hline
   Caso de Uso: Monitoreando medios.\\
-  Actores: Marketing. \\
+  Actores: Medios de Comunicación. \\
   Pre: El usuario está autenticado con el sistema y se seleccionaron sitios y usuarios para monitorear. \\
   Post: \\
   \hline
   Curso Normal\\
   \hline
+  1. El sistema monitorea los medios de comunicación por internet asociados a los usuarios de redes sociales y sitios de la competencia. \\
   \hline
 \end{tabular}
 
@@ -347,6 +353,8 @@ Con este diseño se busca un sistema de venta de telefonía celular que permita 
   \hline
   Curso Normal\\
   \hline
+  1. El sistema envía un informe con los detalles del estado del mercado al usuario y ofrece la posibilidad de crear una promoción en base al mismo. \\
+  2. Se extiende con Validando promoción automática de mercado. \\
   \hline
 \end{tabular}
 
