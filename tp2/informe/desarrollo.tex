@@ -307,8 +307,9 @@ Con este diseño se busca un sistema de venta de telefonía celular que permita 
   Curso Normal\\
   \hline
   1. El sistema detecta que se acumuló mucho stock de un determinado equipo. \\
-  2. El sistema crea una promoción basada en el stock acumulado de dicho equipo y notifica al ususario. \\
-  3. El usuario ve la promoción, valida la misma y pasa a estar disponible para los vendedores. \\
+  2. El sistema crea una promoción basada en el stock acumulado de dicho equipo y notifica al usuario. \\
+  3. El usuario ve la promoción y la valida. \\
+  4. La promoción pasa a estar disponible para los vendedores. \\
   \hline
 \end{tabular}
 
@@ -323,7 +324,8 @@ Con este diseño se busca un sistema de venta de telefonía celular que permita 
   \hline
   Curso Normal\\
   \hline
-  1. El usuario ve la promoción, valida la misma y pasa a estar disponible para los vendedores. \\
+  1. El usuario ve la promoción y la valida. \\
+  2. La promoción pasa a estar disponible para los vendedores. \\
   \hline
 \end{tabular}
 
@@ -333,8 +335,8 @@ Con este diseño se busca un sistema de venta de telefonía celular que permita 
   \hline
   Caso de Uso: Monitoreando medios.\\
   Actores: Medios de Comunicación. \\
-  Pre: El usuario está autenticado con el sistema y se seleccionaron sitios y usuarios para monitorear. \\
-  Post: \\
+  Pre: Se seleccionaron sitios y usuarios para monitorear. \\
+  Post: El sistema realizó el monitoreo de los medios de comunicación en Internet según las preferencias seleccionadas. \\
   \hline
   Curso Normal\\
   \hline
@@ -349,12 +351,13 @@ Con este diseño se busca un sistema de venta de telefonía celular que permita 
   Caso de Uso: Recibiendo informe de monitoreo. \\
   Actores: Marketing. \\
   Pre: El usuario está autenticado con el sistema y se el sistema monitoreó los medios de comunicación. \\
-  Post: \\
+  Post: El usuario recibe un informe producto del monitoreo del mercado pudiendo crear una promoción acorde a él. \\
   \hline
   Curso Normal\\
   \hline
-  1. El sistema envía un informe con los detalles del estado del mercado al usuario y ofrece la posibilidad de crear una promoción en base al mismo. \\
-  2. Se extiende con Validando promoción automática de mercado. \\
+  1. El sistema envía un informe con los detalles del estado del mercado al usuario. \\
+  2. El usuario crea la promoción sugerida por el informe. \\
+  3. Se extiende con Validando promoción automática de mercado. \\
   \hline
 \end{tabular}
 
