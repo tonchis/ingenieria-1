@@ -18,10 +18,10 @@
       <data key="d5"/>
       <data key="d6">
         <y:TableNode configuration="YED_TABLE_NODE">
-          <y:Geometry height="1036.5625" width="1039.8809780227807" x="185.12650591413558" y="82.66666666666663"/>
+          <y:Geometry height="1036.5625" width="988.8809780227807" x="121.12650591413558" y="109.66666666666652"/>
           <y:Fill color="#ECF5FF" color2="#0042F440" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.666015625" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="430.10107421875" x="304.88995190201535" y="4.0">Diagrama de Actividad de una Venta general (con Internet)</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.666015625" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="430.10107421875" x="279.38995190201535" y="4.0">Diagrama de Actividad de una Venta general (con Internet)</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="60.05078125" x="73.49654096086448" y="33.0">Vendedor<y:LabelModel>
               <y:ColumnNodeLabelModel offset="3.0"/>
             </y:LabelModel>
@@ -43,14 +43,14 @@
               <y:ColumnNodeLabelModelParameter id="column_2" inside="true" verticalPosition="0.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="49.580078125" x="648.3145717727804" y="33.0">E. Stock<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="117.982421875" x="600.1133998977804" y="33.0">Encargado de Stock<y:LabelModel>
               <y:ColumnNodeLabelModel offset="3.0"/>
             </y:LabelModel>
             <y:ModelParameter>
               <y:ColumnNodeLabelModelParameter id="column_3" inside="true" verticalPosition="0.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="71.11328125" x="874.9665276358062" y="33.0">Facturación<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="71.11328125" x="835.4665276358062" y="33.0">Facturación<y:LabelModel>
               <y:ColumnNodeLabelModel offset="3.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -80,7 +80,7 @@
           </y:StyleProperties>
           <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
           <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-          <y:BorderInsets bottom="38" bottomF="37.5625" left="37" leftF="36.91353314836442" right="75" rightF="75.48901139018722" top="30" topF="30.0"/>
+          <y:BorderInsets bottom="38" bottomF="37.5625" left="37" leftF="36.91353314836442" right="37" rightF="37.489011390187216" top="30" topF="30.0"/>
           <y:Table autoResizeTable="true" defaultColumnWidth="200.0" defaultMinimumColumnWidth="80.0" defaultMinimumRowHeight="50.0" defaultRowHeight="90.0">
             <y:DefaultColumnInsets bottom="0.0" left="0.0" right="0.0" top="24.0"/>
             <y:DefaultRowInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
@@ -95,10 +95,10 @@
               <y:Column id="column_2" minimumWidth="80.0" width="176.0">
                 <y:Insets bottom="0.0" left="0.0" right="0.0" top="24.0"/>
               </y:Column>
-              <y:Column id="column_3" minimumWidth="80.0" width="216.12149532710282">
+              <y:Column id="column_3" minimumWidth="80.0" width="188.12149532710282">
                 <y:Insets bottom="0.0" left="0.0" right="0.0" top="24.0"/>
               </y:Column>
-              <y:Column id="column_4" minimumWidth="80.0" width="258.71561952394893">
+              <y:Column id="column_4" minimumWidth="80.0" width="235.71561952394893">
                 <y:Insets bottom="0.0" left="0.0" right="0.0" top="24.0"/>
               </y:Column>
             </y:Columns>
@@ -114,7 +114,7 @@
         <node id="n0::n0">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Activity.withShadow">
-              <y:Geometry height="50.0" width="127.35546875" x="226.119140625" y="166.66666666666663"/>
+              <y:Geometry height="50.0" width="127.35546875" x="162.119140625" y="193.66666666666652"/>
               <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
               <y:BorderStyle color="#123EA2" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="96.1328125" x="15.611328125" y="8.8671875">Consultar datos
@@ -139,7 +139,7 @@
         <node id="n0::n1">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Activity.withShadow">
-              <y:Geometry height="50.0" width="127.35546875" x="226.119140625" y="246.66666666666663"/>
+              <y:Geometry height="50.0" width="127.35546875" x="162.119140625" y="273.6666666666665"/>
               <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
               <y:BorderStyle color="#123EA2" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="42.390625" x="42.482421875" y="8.8671875">Visitar
@@ -164,7 +164,7 @@ cliente<y:LabelModel>
         <node id="n0::n2">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Activity.withShadow">
-              <y:Geometry height="50.0" width="127.35546875" x="226.119140625" y="406.66666666666663"/>
+              <y:Geometry height="50.0" width="127.35546875" x="162.119140625" y="433.6666666666665"/>
               <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
               <y:BorderStyle color="#123EA2" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="135.513671875" x="-4.0791015625" y="8.8671875">Preguntar necesidades
@@ -189,7 +189,7 @@ al cliente<y:LabelModel>
         <node id="n0::n3">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Activity.withShadow">
-              <y:Geometry height="50.0" width="127.35546875" x="226.119140625" y="326.66666666666663"/>
+              <y:Geometry height="50.0" width="127.35546875" x="162.119140625" y="353.6666666666665"/>
               <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
               <y:BorderStyle color="#123EA2" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="132.701171875" x="-2.6728515625" y="8.8671875">Pedir las promociones
@@ -214,7 +214,7 @@ para el cliente<y:LabelModel>
         <node id="n0::n4">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Activity.withShadow">
-              <y:Geometry height="50.0" width="127.35546875" x="419.595703125" y="406.66666666666663"/>
+              <y:Geometry height="50.0" width="127.35546875" x="355.595703125" y="433.6666666666665"/>
               <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
               <y:BorderStyle color="#123EA2" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" modelName="custom" textColor="#000000" visible="true" width="110.4765625" x="8.439453125" y="1.80078125">Comunicar sus
@@ -240,7 +240,7 @@ telefonía<y:LabelModel>
         <node id="n0::n5">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Activity.withShadow">
-              <y:Geometry height="50.0" width="127.35546875" x="226.119140625" y="486.66666666666663"/>
+              <y:Geometry height="50.0" width="127.35546875" x="162.119140625" y="513.6666666666665"/>
               <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
               <y:BorderStyle color="#123EA2" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="109.931640625" x="8.7119140625" y="8.8671875">Evaluar y ofrecer
@@ -265,7 +265,7 @@ promoción acorde<y:LabelModel>
         <node id="n0::n6">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Gateway.withShadow">
-              <y:Geometry height="45.0" width="45.0" x="460.7734375" y="489.16666666666663"/>
+              <y:Geometry height="45.0" width="45.0" x="396.7734375" y="516.1666666666665"/>
               <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
               <y:BorderStyle color="#E38B00" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="67.943359375" x="41.54941680052593" y="6.3671875">¿Está 
@@ -288,7 +288,7 @@ satisfecho?<y:LabelModel>
         <node id="n0::n7">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Activity.withShadow">
-              <y:Geometry height="50.0" width="127.35546875" x="226.119140625" y="564.1666666666666"/>
+              <y:Geometry height="50.0" width="127.35546875" x="162.119140625" y="591.1666666666665"/>
               <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
               <y:BorderStyle color="#123EA2" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="84.876953125" x="21.2392578125" y="8.8671875">Pedir reserva
@@ -313,7 +313,7 @@ de promoción<y:LabelModel>
         <node id="n0::n8">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Activity.withShadow">
-              <y:Geometry height="50.0" width="127.35546875" x="598.4926347108645" y="719.1666666666666"/>
+              <y:Geometry height="50.0" width="127.35546875" x="534.4926347108645" y="746.1666666666665"/>
               <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
               <y:BorderStyle color="#123EA2" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="94.146484375" x="16.6044921875" y="8.8671875">Reservar stock
@@ -338,7 +338,7 @@ por 10 minutos<y:LabelModel>
         <node id="n0::n9">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Gateway.withShadow">
-              <y:Geometry height="45.0" width="45.0" x="639.6703690858645" y="644.1666666666666"/>
+              <y:Geometry height="45.0" width="45.0" x="575.6703690858645" y="671.1666666666665"/>
               <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
               <y:BorderStyle color="#E38B00" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="70.7734375" x="-68.7456955980557" y="-3.56640625">¿Hay stock?<y:LabelModel>
@@ -360,7 +360,7 @@ por 10 minutos<y:LabelModel>
         <node id="n0::n10">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Activity.withShadow">
-              <y:Geometry height="50.0" width="127.35546875" x="226.119140625" y="719.1666666666666"/>
+              <y:Geometry height="50.0" width="127.35546875" x="162.119140625" y="746.1666666666665"/>
               <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
               <y:BorderStyle color="#123EA2" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" modelName="custom" textColor="#000000" visible="true" width="87.23828125" x="20.05859375" y="1.80078125">Pedir datos de
@@ -386,7 +386,7 @@ cliente<y:LabelModel>
         <node id="n0::n11">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Activity.withShadow">
-              <y:Geometry height="50.0" width="127.35546875" x="419.595703125" y="799.4999999999999"/>
+              <y:Geometry height="50.0" width="127.35546875" x="355.595703125" y="826.4999999999998"/>
               <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
               <y:BorderStyle color="#123EA2" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="87.126953125" x="20.1142578125" y="8.8671875">Otorgar datos
@@ -411,7 +411,7 @@ de facturación<y:LabelModel>
         <node id="n0::n12">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Activity.withShadow">
-              <y:Geometry height="50.0" width="127.35546875" x="226.119140625" y="799.4999999999999"/>
+              <y:Geometry height="50.0" width="127.35546875" x="162.119140625" y="826.4999999999998"/>
               <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
               <y:BorderStyle color="#123EA2" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="87.58984375" x="19.8828125" y="8.8671875">Ingresar datos
@@ -436,7 +436,7 @@ de facturación<y:LabelModel>
         <node id="n0::n13">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Activity.withShadow">
-              <y:Geometry height="50.0" width="127.35546875" x="226.119140625" y="874.1666666666666"/>
+              <y:Geometry height="50.0" width="127.35546875" x="162.119140625" y="901.1666666666665"/>
               <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
               <y:BorderStyle color="#123EA2" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="86.4765625" x="20.439453125" y="15.93359375">Efectuar venta<y:LabelModel>
@@ -460,7 +460,7 @@ de facturación<y:LabelModel>
         <node id="n0::n14">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Activity.withShadow">
-              <y:Geometry height="50.0" width="127.35546875" x="598.4926347108645" y="874.1666666666666"/>
+              <y:Geometry height="50.0" width="127.35546875" x="534.4926347108645" y="901.1666666666665"/>
               <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
               <y:BorderStyle color="#123EA2" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="116.79296875" x="5.28125" y="8.8671875">Enviar datos de
@@ -485,7 +485,7 @@ venta a Facturación<y:LabelModel>
         <node id="n0::n15">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Gateway.withShadow">
-              <y:Geometry height="45.0" width="45.0" x="1063.340738171729" y="876.6666666666666"/>
+              <y:Geometry height="45.0" width="45.0" x="986.3407381717291" y="903.6666666666665"/>
               <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
               <y:BorderStyle color="#E38B00" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="95.107421875" x="-99.107421875" y="-16.1328125">¿Datos de
@@ -508,7 +508,7 @@ facturación OK?<y:LabelModel>
         <node id="n0::n16">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Activity.withShadow">
-              <y:Geometry height="50.0" width="127.35546875" x="1022.1630037967291" y="796.6666666666666"/>
+              <y:Geometry height="50.0" width="127.35546875" x="945.1630037967291" y="823.6666666666665"/>
               <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
               <y:BorderStyle color="#123EA2" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="110.4296875" x="8.462890625" y="8.8671875">Cancelar venta e
@@ -533,7 +533,7 @@ informar al cliente<y:LabelModel>
         <node id="n0::n17">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Activity.withShadow">
-              <y:Geometry height="50.0" width="127.35546875" x="1022.1630037967291" y="951.6666666666666"/>
+              <y:Geometry height="50.0" width="127.35546875" x="945.1630037967291" y="978.6666666666665"/>
               <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
               <y:BorderStyle color="#123EA2" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="80.623046875" x="23.3662109375" y="8.8671875">Cargar orden
@@ -558,7 +558,7 @@ de pedido<y:LabelModel>
         <node id="n0::n18">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Activity.withShadow">
-              <y:Geometry height="50.0" width="127.35546875" x="598.4926347108645" y="951.6666666666666"/>
+              <y:Geometry height="50.0" width="127.35546875" x="534.4926347108645" y="978.6666666666665"/>
               <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
               <y:BorderStyle color="#123EA2" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="79.486328125" x="23.9345703125" y="15.93359375">Liberar stock<y:LabelModel>
@@ -582,7 +582,7 @@ de pedido<y:LabelModel>
         <node id="n0::n19">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Activity.withShadow">
-              <y:Geometry height="50.0" width="127.35546875" x="794.1630037967292" y="1031.6666666666665"/>
+              <y:Geometry height="50.0" width="127.35546875" x="718.1630037967292" y="1058.6666666666665"/>
               <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
               <y:BorderStyle color="#123EA2" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="97.041015625" x="15.1572265625" y="8.8671875">Enviar pedido al
@@ -610,7 +610,7 @@ cliente<y:LabelModel>
       <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="11.0" width="11.0" x="137.796875" y="186.16666666666663"/>
+          <y:Geometry height="11.0" width="11.0" x="80.12650591413558" y="213.16666666666652"/>
           <y:Fill color="#000000" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="3.5" y="3.5">
@@ -629,7 +629,7 @@ cliente<y:LabelModel>
       <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="11.0" width="11.0" x="1255.0074839369163" y="1051.1666666666665"/>
+          <y:Geometry height="11.0" width="11.0" x="1140.0074839369163" y="1078.1666666666665"/>
           <y:Fill color="#000000" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="3.5" y="3.5">
@@ -727,13 +727,13 @@ cliente<y:LabelModel>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="448.1302083333335" y="538.1666666666665"/>
-            <y:Point x="409.1302083333335" y="543.1666666666665"/>
-            <y:Point x="370.1302083333335" y="529.1666666666665"/>
+            <y:Point x="384.1302083333335" y="565.1666666666664"/>
+            <y:Point x="345.1302083333335" y="570.1666666666664"/>
+            <y:Point x="306.1302083333335" y="556.1666666666664"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="20.236328125" x="-71.46018473307277" y="12.780741373697765">No<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="20.236328125" x="-71.46018473307277" y="12.780741373697651">No<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -750,8 +750,8 @@ cliente<y:LabelModel>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-15.040160752531051" ty="0.0">
-            <y:Point x="422.1302083333335" y="645.1666666666665"/>
-            <y:Point x="512.1302083333335" y="666.6666666666666"/>
+            <y:Point x="358.1302083333335" y="672.1666666666664"/>
+            <y:Point x="448.1302083333335" y="693.6666666666665"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -766,7 +766,7 @@ cliente<y:LabelModel>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-17.000000000000114"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="13.931640625" x="23.034199652270786" y="6.886454264322879">Sí<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="13.931640625" x="23.034199652270786" y="6.886454264322765">Sí<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -783,16 +783,16 @@ cliente<y:LabelModel>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="657.1302083333335" y="610.1666666666665"/>
-            <y:Point x="635.1302083333335" y="558.1666666666665"/>
-            <y:Point x="586.1302083333335" y="486.1666666666665"/>
-            <y:Point x="509.1302083333335" y="465.1666666666665"/>
-            <y:Point x="441.1302083333335" y="471.1666666666665"/>
-            <y:Point x="358.1302083333335" y="500.1666666666665"/>
+            <y:Point x="593.1302083333335" y="637.1666666666664"/>
+            <y:Point x="571.1302083333335" y="585.1666666666664"/>
+            <y:Point x="522.1302083333335" y="513.1666666666664"/>
+            <y:Point x="445.1302083333335" y="492.1666666666664"/>
+            <y:Point x="377.1302083333335" y="498.1666666666664"/>
+            <y:Point x="294.1302083333335" y="527.1666666666664"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="20.236328125" x="13.520439772641339" y="-36.089004582027314">No<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="20.236328125" x="13.520439772641339" y="-36.08900458202743">No<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -877,7 +877,7 @@ cliente<y:LabelModel>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="13.499999999999886"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="20.236328125" x="19.881875867041572" y="-24.09767659505212">No<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="20.236328125" x="19.881814831885322" y="-24.097676595052235">No<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -896,7 +896,7 @@ cliente<y:LabelModel>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="13.931640625" x="23.034219617041572" y="4.984110514322879">Sí<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="13.931640625" x="23.034158581885322" y="4.984110514322765">Sí<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -935,7 +935,7 @@ cliente<y:LabelModel>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="44.1241649021614" ty="0.0">
-            <y:Point x="929.1302083333335" y="835.1666666666665"/>
+            <y:Point x="865.1302083333335" y="862.1666666666664"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -948,7 +948,7 @@ cliente<y:LabelModel>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="400.1127014160156" y="584.3126220703125"/>
+            <y:Point x="336.1127014160156" y="611.3126220703125"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -969,7 +969,7 @@ cliente<y:LabelModel>
             </y:ModelParameter>
             <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
           </y:EdgeLabel>
-          <y:Arc height="36.51416778564453" ratio="0.7007761597633362" type="fixedRatio"/>
+          <y:Arc height="36.514163970947266" ratio="0.7007761597633362" type="fixedRatio"/>
         </y:ArcEdge>
       </data>
     </edge>
