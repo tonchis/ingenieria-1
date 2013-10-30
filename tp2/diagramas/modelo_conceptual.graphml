@@ -687,7 +687,7 @@ cantidad : integer<y:LabelModel>
     <node id="n36">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="150.0" width="150.0" x="-272.2311341390457" y="-39.61343930635849"/>
+          <y:Geometry height="150.0" width="150.0" x="165.6795570064828" y="740.8159959513671"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasLineColor="false" height="41.6875" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="104.734375" x="22.6328125" y="4.0">Estado Venta
@@ -712,7 +712,7 @@ aceptada
     <node id="n37">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="150.0" width="150.0" x="-492.39813197141234" y="-39.61343930635837"/>
+          <y:Geometry height="150.0" width="150.0" x="-236.91547345389074" y="-34.18375149841063"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasLineColor="false" height="41.6875" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="143.171875" x="3.4140625" y="4.0">Estado Promocion
@@ -1091,7 +1091,7 @@ inactiva
           <y:Geometry height="10.926436362860954" width="3.0896657601942934" x="554.6052755014055" y="589.4482673777007"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="-0.6997984125309245" y="3.463218181430534">
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="-0.6997984125308676" y="3.463218181430534">
             <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1157,6 +1157,23 @@ precio_unidad : integer<y:LabelModel>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
         </y:GenericNode>
+      </data>
+    </node>
+    <node id="n62">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="43.44630630505753" width="143.0" x="101.88298451659136" y="50.153935680310724"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="custom" textColor="#000000" visible="true" width="36.0625" x="53.46875" y="10.301278152528766">0..N<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
       </data>
     </node>
     <edge id="e0" source="n0" target="n2">
@@ -1305,7 +1322,6 @@ precio_unidad : integer<y:LabelModel>
       </data>
     </edge>
     <edge id="e11" source="n48" target="n0">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1320,7 +1336,6 @@ precio_unidad : integer<y:LabelModel>
       </data>
     </edge>
     <edge id="e12" source="n6" target="n1">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1331,7 +1346,6 @@ precio_unidad : integer<y:LabelModel>
       </data>
     </edge>
     <edge id="e13" source="n1" target="n51">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1342,7 +1356,6 @@ precio_unidad : integer<y:LabelModel>
       </data>
     </edge>
     <edge id="e14" source="n47" target="n58">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="5.46321818143042">
@@ -1364,7 +1377,6 @@ precio_unidad : integer<y:LabelModel>
       </data>
     </edge>
     <edge id="e15" source="n3" target="n58">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="5.46321818143042"/>
@@ -1384,7 +1396,6 @@ precio_unidad : integer<y:LabelModel>
       </data>
     </edge>
     <edge id="e16" source="n4" target="n58">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="5.46321818143042">
@@ -1406,7 +1417,6 @@ precio_unidad : integer<y:LabelModel>
       </data>
     </edge>
     <edge id="e17" source="n51" target="n58">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1426,7 +1436,6 @@ precio_unidad : integer<y:LabelModel>
       </data>
     </edge>
     <edge id="e18" source="n48" target="n59">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-5.4575768786128265" ty="0.0"/>
@@ -1437,7 +1446,6 @@ precio_unidad : integer<y:LabelModel>
       </data>
     </edge>
     <edge id="e19" source="n6" target="n59">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="13.610161654235071" ty="0.0"/>
@@ -1448,7 +1456,6 @@ precio_unidad : integer<y:LabelModel>
       </data>
     </edge>
     <edge id="e20" source="n59" target="n7">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-5.4575768786128265" sy="0.0" tx="0.0" ty="0.0"/>
