@@ -1,6 +1,6 @@
-‌\section{Introducción}
+\section{Introducción}
 Partiendo del diseño presentado en el trabajo anterior donde se buscó un sistema de venta de telefonía celular que permita tener un alto grado de confiabilidad tanto para el vendedor como para el cliente, que mantenga interconectadas a las distintas partes de la empresa (marketing - ventas - facturación - stock) en todo momento, que automatice algunos procesos internos de la empresa y que agilice y mejore el rendimiento de ventas, se presenta en este trabajo una segunda capa de modelos que pretende ilustrar la funcionalidad y comportamiento general del sistema.\\
-\indent Como primer acercamiento a la utilización de la plataforma y su interacción con los distintos actores se incluyen una serie de Diagramas de Actividad en los que se despliegan tanto situaciones de uso abstractas y generales como también representaciones de casos puntuales tal y como se describiera en la sección \textsl{Escenarios} del primer informe. Luego se introduce un Modelo Conceptual con su especificación en $OCL$ con el objeto de \textbf{ME FALTA CHAMUYO ACÁ}. Como tercer acercamiento para entender la confección de este sistema se presentan diversos casos de uso con sus actores, modelo que está íntimamente relacionado con los primeros diagramas de actividad y que expande el detalle de estas interacciones.\\
+\indent Como primer acercamiento a la utilización de la plataforma y su interacción con los distintos actores se incluyen una serie de Diagramas de Actividad en los que se despliegan tanto situaciones de uso abstractas y generales como también representaciones de casos puntuales tal y como se describiera en la sección \textsl{Escenarios} del primer informe. Luego se introduce un Modelo Conceptual con su especificación en \textbf{OCL} con el objeto de detallar las entidades del sistema y como se relacionan. Como tercer acercamiento para entender la confección de este sistema se presentan diversos casos de uso con sus actores, modelo que está íntimamente relacionado con los primeros diagramas de actividad y que expande el detalle de estas interacciones.\\
 \indent Por último, y no por eso menos importante, se incluye un modelo de Máquinas de Estados Finitos puesto que resultó oportuna su utilización para graficar de manera más formal cómo se comporta el sistema de ventas a la hora de tener que sincronizar procesos de la misma naturaleza que se realizan en paralelo y para los cuales es fundamental tener concurrencia con el stock de equipos de celular a modo de evitar falsas promesas y situaciones incómodas con los potenciales clientes.\\
 \indent Es importante resaltar que a lo largo de este trabajo también se hace foco en la interconexión de estos modelos, característica denominada \textsl{trazabilidad}, la cual es fundamental para lograr comprender de manera integral el problema a través de los distintos documentos propuestos.\\
 
@@ -38,6 +38,10 @@ En lo que respecta al comportamiento del sistema, puede decirse que existen tres
 
 \section{Modelo Conceptual}
 
+En este modelo diagramamos las entidades importantes que componen el sistema y la relación entre ellas.
+Para una mayor comprensión, describimos brevemente el significado de cada concepto y su función en el sistema.
+
+
 \begin{itemize}
   \item Venta: Es la instancia de una operación que ocurre entre el vendedor y el cliente, y detalla el importe a pagar y los equipos vendidos.
 
@@ -54,14 +58,12 @@ En lo que respecta al comportamiento del sistema, puede decirse que existen tres
   \item RegistroEntrada: Cada vez que el Empleado de Stock ingresa los equipos al sistema, se genera un registro de entrada por cantidad ingresada y por cada modelo distinto.
 \end{itemize}
 
-
 \begin{figure}[h!]
   \centering
   \includegraphics[width=1.5\textwidth, angle=90]{./imagenes/modelo_conceptual.png}
   \caption{Modelo conceptual}
   \label{fig:modelo_conceptual}
 \end{figure}
-
 
 \clearpage
 
@@ -77,7 +79,7 @@ Context   PromocionVendida
 inv:      self.promocion.categorias->include(self.venta.cliente.categoria)
 \end{verbatim}
 
-Además queremos aclarar que una PromocionVendida se puede crear únicamente cuando su promoción tiene estado activa. Esto no se puede expresar claramente con OCL porque puede cambiarse el estado de una promoción luego de crear una PromocionVendida, sin embargo la relación entre los modelos sigue existiendo.
+Además queremos aclarar que una \textbf{PromocionVendida} se puede crear únicamente cuando su promoción tiene estado activa. Esto no se puede expresar claramente con OCL porque puede cambiarse el estado de una promoción luego de crear una \textbf{PromocionVendida}, sin embargo la relación entre los modelos sigue existiendo.
 
 \clearpage
 
@@ -426,3 +428,9 @@ Además queremos aclarar que una PromocionVendida se puede crear únicamente cua
   1. El sistema monitorea los medios de comunicación por internet asociados a los usuarios de redes sociales y sitios de la competencia. \\
   \hline
 \end{tabular}
+
+\subsection{Maquina de Estado}
+
+\includegraphics[width=1.1\textwidth]{./imagenes/maquina_de_estado.png}
+
+\clearpage
