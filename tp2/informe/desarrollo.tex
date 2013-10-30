@@ -50,6 +50,22 @@ CHAMUYO!!
 
 \clearpage
 
+\begin{verbatim}
+Context   Venta
+inv:      self.total = self.items->collect(precio_venta)->sum()
+
+Context   ModeloCelular
+inv:      self.ingresoStock->collect(cantidad)->sum() >= 
+          self.equiposVendidos->select(e| e.venta.estado != 'Rechazado')->sum()
+
+Context   PromocionVendida
+inv:      self.promocion.categorias->include(self.venta.cliente.categoria)
+\end{verbatim}
+
+Además queremos aclarar que una PromocionVendida se puede crear únicamente cuando su promoción tiene estado activa. Esto no se puede expresar claramente con OCL porque puedecambiarse el estado de una promoción luego de crear una PromocionVendida, sin embargo la relación entre los modelos sigue existiendo.
+
+\clearpage
+
 \section{Casos de Uso}
 
 \subsection{Casos de Uso MVP}
