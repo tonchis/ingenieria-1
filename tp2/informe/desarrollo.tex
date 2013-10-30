@@ -38,7 +38,22 @@ En lo que respecta al comportamiento del sistema, puede decirse que existen tres
 
 \section{Modelo Conceptual}
 
-CHAMUYO!!
+\begin{itemize}
+  \item Venta: Es la instancia de una operación que ocurre entre el vendedor y el cliente, y detalla el importe a pagar y los equipos vendidos.
+
+  \item Item: Son los elementos que componen una venta y cuentan con un \textit{precio}.
+    \begin{itemize}
+      \item Promocion Vendida: La instancia de una promoción que estuvo vigente, y fue vendida en el momento de la venta. Se utiliza para agrupar el precio de venta, de los equipos vendidos de la promoción.
+      \item Equipo Vendido: Es el aparato en sí, de un modelo en particular, pero con número de teléfono asignado.
+      \item Ajuste: Descuentos, Impuestos, y otros cargos que inciden en el total de la venta.
+    \end{itemize}
+  \item Modelo Celular: Marca y modelo de los equipos. Por ejemplo 'Apple iPhone 5'
+
+  \item Promocion: Es una oferta de un conjunto de modelos de celular, con un precio y orientado a una categoría de cliente.
+
+  \item RegistroEntrada: Cada vez que el Empleado de Stock ingresa los equipos al sistema, se genera un registro de entrada por cantidad ingresada y por cada modelo distinto.
+\end{itemize}
+
 
 \begin{figure}[h!]
   \centering
@@ -62,7 +77,7 @@ Context   PromocionVendida
 inv:      self.promocion.categorias->include(self.venta.cliente.categoria)
 \end{verbatim}
 
-Además queremos aclarar que una PromocionVendida se puede crear únicamente cuando su promoción tiene estado activa. Esto no se puede expresar claramente con OCL porque puedecambiarse el estado de una promoción luego de crear una PromocionVendida, sin embargo la relación entre los modelos sigue existiendo.
+Además queremos aclarar que una PromocionVendida se puede crear únicamente cuando su promoción tiene estado activa. Esto no se puede expresar claramente con OCL porque puede cambiarse el estado de una promoción luego de crear una PromocionVendida, sin embargo la relación entre los modelos sigue existiendo.
 
 \clearpage
 
