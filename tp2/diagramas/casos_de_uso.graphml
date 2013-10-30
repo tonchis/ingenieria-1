@@ -228,7 +228,7 @@
       <data key="d4"/>
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="100.0" width="60.0" x="1481.4374999999995" y="836.3125000000001"/>
+          <y:Geometry height="100.0" width="60.0" x="1228.353995901639" y="836.3125000000001"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="custom" textColor="#000000" visible="true" width="159.62548828125" x="-49.812744140625" y="104.0">Medios de comunicación<y:LabelModel>
@@ -249,7 +249,7 @@
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="60.9375" width="259.0" x="757.5" y="770.3750000000001"/>
+          <y:Geometry height="60.9375" width="259.0" x="457.0" y="802.6875000000005"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.62109375" modelName="custom" textColor="#000000" visible="true" width="217.078125" x="20.9609375" y="13.158203125">Validando promoción automática 
@@ -287,25 +287,7 @@ para monitorear<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="50.0" width="230.0" x="772.0" y="984.3125000000001"/>
-          <y:Fill hasColor="false" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="custom" textColor="#000000" visible="true" width="215.6943359375" x="7.15283203125" y="15.3447265625">Recibiendo informe de monitoreo<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="ellipse"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n15">
-      <data key="d4"/>
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="50.0" width="259.0" x="757.5" y="861.3125000000001"/>
+          <y:Geometry height="50.0" width="259.0" x="457.0" y="893.6250000000005"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.62109375" modelName="custom" textColor="#000000" visible="true" width="217.078125" x="20.9609375" y="7.689453125">Validando promoción automática 
@@ -320,11 +302,11 @@ de mercado<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n16">
+    <node id="n15">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="50.0" width="213.0" x="1141.0" y="861.3125000000001"/>
+          <y:Geometry height="50.0" width="213.0" x="887.9164959016396" y="861.3125000000001"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="custom" textColor="#000000" visible="true" width="141.87744140625" x="35.561279296875" y="15.3447265625">Monitoreando medios<y:LabelModel>
@@ -338,13 +320,13 @@ de mercado<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n17">
+    <node id="n16">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="1087.4999999999993" width="1028.7499999999995" x="372.62500000000034" y="3.686893879984382"/>
+          <y:Geometry height="1087.4999999999993" width="780.1908299180325" x="372.625" y="-9.948352021655069"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="512.3749999999998" y="541.7499999999997">
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="388.09541495901624" y="541.7499999999997">
             <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -356,7 +338,7 @@ de mercado<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n18">
+    <node id="n17">
       <data key="d4"/>
       <data key="d6">
         <y:ShapeNode>
@@ -505,7 +487,7 @@ de mercado<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e10" source="n14" target="n3">
+    <edge id="e10" source="n12" target="n3">
       <data key="d8"/>
       <data key="d10">
         <y:PolyLineEdge>
@@ -516,7 +498,7 @@ de mercado<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e11" source="n12" target="n3">
+    <edge id="e11" source="n14" target="n3">
       <data key="d8"/>
       <data key="d10">
         <y:PolyLineEdge>
@@ -527,7 +509,7 @@ de mercado<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e12" source="n15" target="n3">
+    <edge id="e12" source="n15" target="n11">
       <data key="d8"/>
       <data key="d10">
         <y:PolyLineEdge>
@@ -538,35 +520,7 @@ de mercado<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e13" source="n16" target="n11">
-      <data key="d8"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="none"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e14" source="n15" target="n14">
-      <data key="d10">
-        <y:BezierEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="92.529296875" x="17.735351562499886" y="27.433593750000114">&lt;&lt;extiende&gt;&gt;<y:LabelModel>
-              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="63.999999999999886" distanceToCenter="true" position="left" ratio="0.5" segment="-1"/>
-            </y:ModelParameter>
-            <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
-          </y:EdgeLabel>
-        </y:BezierEdge>
-      </data>
-    </edge>
-    <edge id="e15" source="n18" target="n0">
+    <edge id="e13" source="n17" target="n0">
       <data key="d8"/>
       <data key="d10">
         <y:PolyLineEdge>
@@ -586,7 +540,7 @@ de mercado<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e16" source="n18" target="n8">
+    <edge id="e14" source="n17" target="n8">
       <data key="d10">
         <y:BezierEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -603,8 +557,7 @@ de mercado<y:LabelModel>
         </y:BezierEdge>
       </data>
     </edge>
-    <edge id="e17" source="n1" target="n4">
-      <data key="d9"/>
+    <edge id="e15" source="n1" target="n4">
       <data key="d10">
         <y:BezierEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -615,8 +568,7 @@ de mercado<y:LabelModel>
         </y:BezierEdge>
       </data>
     </edge>
-    <edge id="e18" source="n2" target="n4">
-      <data key="d9"/>
+    <edge id="e16" source="n2" target="n4">
       <data key="d10">
         <y:BezierEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -627,8 +579,7 @@ de mercado<y:LabelModel>
         </y:BezierEdge>
       </data>
     </edge>
-    <edge id="e19" source="n3" target="n4">
-      <data key="d9"/>
+    <edge id="e17" source="n3" target="n4">
       <data key="d10">
         <y:BezierEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -639,8 +590,7 @@ de mercado<y:LabelModel>
         </y:BezierEdge>
       </data>
     </edge>
-    <edge id="e20" source="n0" target="n8">
-      <data key="d9"/>
+    <edge id="e18" source="n0" target="n8">
       <data key="d10">
         <y:BezierEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -651,8 +601,7 @@ de mercado<y:LabelModel>
         </y:BezierEdge>
       </data>
     </edge>
-    <edge id="e21" source="n2" target="n8">
-      <data key="d9"/>
+    <edge id="e19" source="n2" target="n8">
       <data key="d10">
         <y:BezierEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
