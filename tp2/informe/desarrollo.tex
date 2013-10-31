@@ -1,5 +1,13 @@
 \section{Introducción}
-Partiendo del diseño presentado en el trabajo anterior donde se buscó un sistema de venta de telefonía celular que permita tener un alto grado de confiabilidad tanto para el vendedor como para el cliente, que mantenga interconectadas a las distintas partes de la empresa (marketing - ventas - facturación - stock) en todo momento, que automatice algunos procesos internos de la empresa y que agilice y mejore el rendimiento de ventas, se presenta en este trabajo una segunda capa de modelos que pretende ilustrar la funcionalidad y comportamiento general del sistema.\\
+En el diseño presentado en el trabajo anterior se buscó un sistema de venta de telefonía celular que cumpla los siguientes objetivos:
+\begin{itemize}
+	\item Permitir tener un alto grado de confiabilidad tanto para el vendedor como para el cliente.
+	\item Mantener interconectadas a las distintas partes de la empresa (marketing - ventas - facturación - stock) en todo momento.
+	\item Automatizar algunos procesos internos de la empresa.
+	\item Agilizar y mejorar el rendimiento de ventas.
+\end{itemize}
+
+Partiendo de esa base, se presenta en este trabajo una segunda capa de modelos que pretende ilustrar la funcionalidad y comportamiento general del sistema.\\
 \indent Como primer acercamiento a la utilización de la plataforma y su interacción con los distintos actores se incluyen una serie de Diagramas de Actividad en los que se despliegan tanto situaciones de uso abstractas y generales como también representaciones de casos puntuales tal y como se describiera en la sección \textsl{Escenarios} del primer informe. Luego se introduce un Modelo Conceptual con su especificación en \textbf{OCL} con el objeto de detallar las entidades del sistema y como se relacionan. Como tercer acercamiento para entender la confección de este sistema se presentan diversos casos de uso con sus actores, modelo que está íntimamente relacionado con los primeros diagramas de actividad y que expande el detalle de estas interacciones.\\
 \indent Por último, y no por eso menos importante, se incluye un modelo de Máquinas de Estados Finitos puesto que resultó oportuna su utilización para graficar de manera más formal cómo se comporta el sistema de ventas a la hora de tener que sincronizar procesos de la misma naturaleza que se realizan en paralelo y para los cuales es fundamental tener concurrencia con el stock de equipos de celular a modo de evitar falsas promesas y situaciones incómodas con los potenciales clientes.\\
 \indent Es importante resaltar que a lo largo de este trabajo también se hace foco en la interconexión de estos modelos, característica denominada \textsl{trazabilidad}, la cual es fundamental para lograr comprender de manera integral el problema a través de los distintos documentos propuestos.\\
@@ -228,7 +236,6 @@ En la primer edición del trabajo práctico propusimos dos diagramas de contexto
 \end{tabular}
 
 \subsection{Casos de Uso}
-
 
 \includegraphics[width=1.1\textwidth]{./imagenes/casos_de_uso.pdf}
 
