@@ -106,7 +106,7 @@
     <node id="n5">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="198.740234375" x="597.8187917720377" y="291.48296604046294"/>
+          <y:Geometry height="30.0" width="198.740234375" x="831.1166015624995" y="-491.01703395953706"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="188.740234375" x="5.0" y="5.93359375">Venta (entre 1 y CANT_VENTAS)<y:LabelModel>
