@@ -38,7 +38,7 @@ En lo que respecta al comportamiento del sistema, puede decirse que existen tres
 
 \section{Modelo Conceptual}
 
-En este modelo diagramamos las entidades importantes que componen el sistema y la relación entre ellas.
+En este modelo (Figura~\ref{fig:modelo_conceptual}) diagramamos las entidades importantes que componen el sistema y la relación entre ellas.
 Para una mayor comprensión, describimos brevemente el significado de cada concepto y su función en el sistema.
 
 
@@ -58,14 +58,7 @@ Para una mayor comprensión, describimos brevemente el significado de cada conce
   \item RegistroEntrada: Cada vez que el Empleado de Stock ingresa los equipos al sistema, se genera un registro de entrada por cantidad ingresada y por cada modelo distinto.
 \end{itemize}
 
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=1.5\textwidth, angle=90]{./imagenes/modelo_conceptual.png}
-  \caption{Modelo conceptual}
-  \label{fig:modelo_conceptual}
-\end{figure}
-
-\clearpage
+\subsection{OCL del modelo}
 
 \begin{verbatim}
 Context   Venta
@@ -80,6 +73,15 @@ inv:      self.promocion.categorias->include(self.venta.cliente.categoria)
 \end{verbatim}
 
 Además queremos aclarar que una \textbf{PromocionVendida} se puede crear únicamente cuando su promoción tiene estado activa. Esto no se puede expresar claramente con OCL porque puede cambiarse el estado de una promoción luego de crear una \textbf{PromocionVendida}, sin embargo la relación entre los modelos sigue existiendo.
+
+\clearpage
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=1.5\textwidth, angle=90]{./imagenes/modelo_conceptual.png}
+  \caption{Modelo conceptual}
+  \label{fig:modelo_conceptual}
+\end{figure}
 
 \clearpage
 
