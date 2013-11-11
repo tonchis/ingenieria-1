@@ -160,7 +160,7 @@ En la primer edición del trabajo práctico propusimos dos diagramas de contexto
   \hline
   \textbf{Caso de Uso: Avisando stock bajo.} \\
   Actores: Encargado de Stock. \\
-  Pre: El usuario está autenticado en el sistema y el stock de alguno de los equipos asociado a promociones vigentes está pronto a agotarse. \\
+  Pre: El usuario está autenticado en el sistema y el stock de alguno de los equipos asociado a promociones vigentes está por debajo del límite establecido. \\
   Post: El encargado de stock es notificado sobre el equipo pronto a agotarse. \\
   \hline
   Curso Normal\\
@@ -188,22 +188,37 @@ En la primer edición del trabajo práctico propusimos dos diagramas de contexto
 
 \vspace{1cm}
 
+\begin{tabular}{ | p{14cm} | }
+  \hline
+  \textbf{Caso de Uso: Eligiendo mínimo de stock.} \\
+  Actores: Encargado de Stock. \\
+  Pre: El usuario está autenticado en el sistema. \\
+  Post: Se define el límite inferior del stock. \\
+  \hline
+  Curso Normal\\
+  \hline
+  1. El Encargado de Stock define el límite debajo del cual se avisará que hay stock bajo. \\
+  \hline
+\end{tabular}
+
+\vspace{1cm}
+
 \begin{tabular}{ | p{7cm} | p{7cm} | }
   \hline
    \multicolumn{2} {| p{10cm} |} {\textbf{Caso de Uso: Registrando venta.}} \\
    \multicolumn{2} {| p{10cm} |} {Actores: Vendedor, Encargado de Stock, Facturación.} \\
-   \multicolumn{2} {| p{10cm} |} {Pre: El usuario está autenticado con el sistema y el vendedor tiene datos de clientes y promociones actualizados.} \\
+   \multicolumn{2} {| p{10cm} |} {Pre: El usuario está autenticado con el sistema, el vendedor tiene datos de clientes y promociones actualizados y se definió el límite inferior del stock.} \\
    \multicolumn{2} {| p{10cm} |} {Post: Se registra una venta en el sistema.} \\
   \hline
   Curso Normal & Curso Alternativo\\
   \hline
-  1. Se extiende con Consultando datos via Internet. & \\
+  1. Se extiende con Consultando datos via Internet si no actualizó los datos via terminal previamente. & \\
   2. El vendedor decide junto al cliente qué promoción adquirir. & \\
   3. El vendedor elige en su dispositivo móvil la promoción que su cliente desea. & \\
   4. El sistema verifica que haya suficientes equipos en stock para satisfacer la promoción. & 4. El sistema verifica que los equipos en stock no alcanzan para satisfacer la promoción\\
   5. El sistema marca como reservados los equipos correspondientes con la promoción vendida. & 5. Se notifica al vendedor que la promoción no puede ser vendida. \\
   6. El sistema notifica al encargado de stock sobre los equipos reservados. & \\ 
-  7. Se extiende con Avisando stock bajo. & \\
+  7. Se extiende con Avisando stock bajo si el stock para algunos de los equipos es menor al establecido. & \\
   8. Usa Verificando venta. & \\
   \hline
 \end{tabular}
@@ -328,22 +343,37 @@ En la primer edición del trabajo práctico propusimos dos diagramas de contexto
 
 \vspace{1cm}
 
+\begin{tabular}{ | p{14cm} | }
+  \hline
+  \textbf{Caso de Uso: Eligiendo mínimo de stock.} \\
+  Actores: Encargado de Stock. \\
+  Pre: El usuario está autenticado en el sistema. \\
+  Post: Se define el límite inferior del stock. \\
+  \hline
+  Curso Normal\\
+  \hline
+  1. El Encargado de Stock define el límite debajo del cual se avisará que hay stock bajo. \\
+  \hline
+\end{tabular}
+
+\vspace{1cm}
+
 \begin{tabular}{ | p{7cm} | p{7cm} | }
   \hline
    \multicolumn{2} {| p{10cm} |} {\textbf{Caso de Uso: Registrando venta.}} \\
    \multicolumn{2} {| p{10cm} |} {Actores: Vendedor, Encargado de Stock, Facturación.} \\
-   \multicolumn{2} {| p{10cm} |} {Pre: El usuario está autenticado con el sistema y el vendedor tiene datos de clientes y promociones actualizados.} \\
+   \multicolumn{2} {| p{10cm} |} {Pre: El usuario está autenticado con el sistema, el vendedor tiene datos de clientes y promociones actualizados y se definió el límite inferior del stock.} \\
    \multicolumn{2} {| p{10cm} |} {Post: Se registra una venta en el sistema.} \\
   \hline
   Curso Normal & Curso Alternativo\\
   \hline
-  1. Se extiende con Consultando datos via Internet. & \\
+  1. Se extiende con Consultando datos via Internet si no actualizó los datos via terminal previamente. & \\
   2. El vendedor decide junto al cliente qué promoción adquirir. & \\
   3. El vendedor elige en su dispositivo móvil la promoción que su cliente desea. & \\
   4. El sistema verifica que haya suficientes equipos en stock para satisfacer la promoción. & 4. El sistema verifica que los equipos en stock no alcanzan para satisfacer la promoción\\
   5. El sistema marca como reservados los equipos correspondientes con la promoción vendida. & 5. Se notifica al vendedor que la promoción no puede ser vendida. \\
   6. El sistema notifica al encargado de stock sobre los equipos reservados. & \\ 
-  7. Se extiende con Avisando stock bajo. & \\
+  7. Se extiende con Avisando stock bajo si el stock para algunos de los equipos es menor al establecido. & \\
   8. Usa Verificando venta. & \\
   \hline
 \end{tabular}
